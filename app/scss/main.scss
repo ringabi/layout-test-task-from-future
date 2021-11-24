@@ -1,0 +1,161 @@
+.banner {
+    background: no-repeat top 0 left 0/contain url("./images/helimain.png");
+    padding: 13.93% 33.25% 13.57% 20.46%;
+}
+
+.price {
+    width: 224px;
+    height: 87px;
+    color: $light;
+    background-color: $warning;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.ellipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border: 1px solid $light;
+    border-radius: 26px;
+}
+
+.button {
+     height: 68px;
+    display: block;
+    width: 304px;
+    color: $light;
+    box-sizing: border-box;
+    border: 3px solid $light;
+    border-radius: 3px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 24px 37px;
+}
+
+header,
+#photosession,
+#package-photos,
+#about-organizer,
+#available-shooting,
+#reviews,
+#social {
+    width: 1137px;
+    margin: 0 auto;
+}
+
+.watch {
+  position: relative;
+}
+
+.watch-1 {
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+}
+
+.watch-1,
+.watch-2,
+.watch-3 img,
+.watch-4 img,
+.watch-5 img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.watch-1 {
+  height: 32px;
+  width: 32px;
+}
+
+.watch-2 {
+  height: 29.96px;
+  width: 29.96px;
+}
+
+.watch-3 {
+  height: 3.06px;
+  width: 1.02px;
+}
+
+.watch-4 {
+  height: 15.7px;
+  width: 15.7px;
+}
+
+.watch-5 {
+  height: 27.91px;
+  width: 27.91px;
+}
+
+.review-border {
+    width: 569px;
+    padding: 25px 0 25px 0;
+    border-top: 0.5px solid $border;
+    border-bottom: 0.5px solid $border;
+}
+
+.review {
+    width: 510px;
+}
+
+.reviews-border {
+  border-bottom: 0.5px solid $border;
+  box-sizing: border-box;
+}
+
+.container {
+    width: 40.1vw;
+    box-sizing: border-box;
+    border: 1px solid $border;
+    padding: 23px 30px 42px 27px;
+}
+
+.line {
+  border-top: 0.5px solid $border;
+  margin-right: -30px;
+  margin-left: -30px;
+}
+
+.container-time {
+    padding-top: 20px;
+}
+
+.select {
+    box-sizing: border-box;
+    height: 50px;
+    width: 129px;
+    background-color: $light;
+    border: 2px solid $warning;
+    border-radius: 3px;
+    color: $warning;
+}
+
+.map {
+  background: no-repeat url("./images/map.png");
+  max-width: 98.85vw;
+  height: 26.57vw;
+  padding: 1.041667vw 0 1.041667vw 20.31%;
+}
+
+.shooting-information {
+  width: 420px;
+  background-color: $light;
+  box-sizing: border-box;
+  border: 1px solid $border;
+  padding: 2.65vw 30px 3.02vw 30px;
+}
+
+.radio-button {
+  height: 10px;
+  width: 10px;
+  border: 0.5px solid $gray;
+  border-radius: 50%;
+}

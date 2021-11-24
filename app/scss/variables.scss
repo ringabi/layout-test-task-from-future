@@ -1,0 +1,80 @@
+$gray: #b3b3b3;
+$light: #fff;
+$dark: #37373f;
+$warning: #fc9b09;
+$info: #5286ec;
+$border: #c7c7c7;
+$bg-footer: #faf9f8;
+
+@font-face {
+  font-weight: 900;
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-Black.ttf');
+}
+
+@font-face {
+  font-weight: 800;
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-Regular.ttf');
+}
+
+html,
+body,
+img,
+div,
+section,
+header,
+article {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: $info;
+}
+
+#map img {
+  vertical-align: middle;
+}
+
+.text-gray {
+    color: $gray;
+}
+
+.text-dark {
+    color: $dark;
+}
+
+.text-warning {
+  color: $warning;
+}
+
+.text-light {
+  color: $light;
+}
