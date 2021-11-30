@@ -1,11 +1,15 @@
 @media (max-width: 1620px) {
   #map img {
-      height: 51.98px;
-      width: 51.98px;
+    height: 51.98px;
+    width: 51.98px;
   }
 
   .shooting-information {
     padding: 2.65vw 30px 2.65vw 30px;
+  }
+
+  .mt-lg-100 {
+    margin-top: 100px;
   }
 }
 
@@ -68,6 +72,10 @@
   .map {
     height: 313px;
     background: no-repeat left -260px top 0 url('./images/map.png');
+  }
+
+  .mt-md-160 {
+    margin-top: 10rem;
   }
 }
 
@@ -251,6 +259,19 @@
     width: calc(100vw - 40px);
   }
 
+  .popup {
+    width: calc(100% - 40px);
+    padding: 74px 10%;
+  }
+
+  input[type=date]::-webkit-calendar-picker-indicator {
+      right: 11.6%;
+    }
+
+  .popup button {
+    width: 64%;
+  }
+
   .m-md-0-auto {
     margin: 0 auto;
   }
@@ -304,8 +325,6 @@
   }
 
   #package-photos {
-  /*  width: 2300px;
-    margin: 0 0 0 15px;  */
     width: calc(100vw - 40px);
     margin: 0 auto;
   }
@@ -326,9 +345,6 @@
   #package-photos .mt-37 img {
     width: 334px;
     height: 223px;
-/*    overscroll-behavior-x: contain;
-    overflow-x: hidden;
-  /*  flex-wrap: no-wrap; */
   }
 
   #photosession .fs-40,
@@ -381,7 +397,6 @@
   .map {
     height: 417px;
     background: no-repeat url('./images/map.png');
-  /*  background-size: 80%;  */
     background-position: left -940px top 0;
     background-origin: padding-box;
     padding: 1.041667vw 7.19vw 1.041667vw 7.19vw;
@@ -409,12 +424,12 @@
   }
 
   #map .shooting-information .mr-18 {
-     margin-right: 0;
+    margin-right: 0;
   }
 
   #map .shooting-information div:nth-of-type(5) .mr-18 {
     margin-right: 11px;
- }
+  }
 
   #map .shooting-information div:first-child img:nth-of-type(1),
   #map img:nth-of-type(3) {
@@ -473,6 +488,15 @@
     width: 385px;
   }
 
+  input[type=date]::-webkit-calendar-picker-indicator {
+    right: 12.6%;
+  }
+
+  .popup button {
+    width: 250px;
+    height: 50px;
+  }
+
   .mb-91 {
     margin-bottom: 414px;
   }
@@ -484,10 +508,6 @@
   .mt-sm-minus24 {
     margin-top: -24px;
   }
-
-/*  .mt-sm-minus5 {
-    margin-top: -5px;
-  }  */
 
   .mt-sm-0 {
     margin-top: 0;
@@ -669,6 +689,17 @@
     width: 335px;
   }
 
+  .popup {
+    padding-top: 51px;
+    padding-right: 20px;
+    padding-bottom: 36px;
+    padding-left: 20px;
+  }
+
+  input[type=date]::-webkit-calendar-picker-indicator {
+    right: 7.6%;
+  }
+
   .w-288,
   .w-sm-287 {
     width: 335px;
@@ -687,29 +718,12 @@
   }
 
   #package-photos {
-  /*  width: 2300px;
-    margin: 0 0 0 15px;  */
     width: calc(100vw - 30px);
     margin: 0 auto;
   }
 
   .banner {
-  /*  background: no-repeat top 0 left -855px url("./images/helimain.png"); */
-  /*  padding: 37.9vw 23.25% 49.0vw 15px;  */
     background: no-repeat url("./images/helimain-mobile.png");
-  /*  background-image: url(./images/helimain.png);
-    background-position-x: left -386px;
-    background-position-y: bottom 112px;
-    background-size: 307%;
-    background-repeat: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
-    padding-top: 37.9vw;
-    padding-right: 23.25%;
-    padding-bottom: 49vw;
-    padding-left: 15px;  */
   }
 
   #photosession div:nth-child(1) > img {
@@ -747,11 +761,6 @@
   }
 
   .map {
-  /*  height: 417px;
-    background: no-repeat url('./images/map.png');
-    background-position: left -940px top 0;
-    background-origin: padding-box;
-    padding: 1.041667vw 7.19vw 1.041667vw 7.19vw; */
     background: no-repeat url('./images/map-mobile.png');
   }
 
@@ -770,6 +779,16 @@
 
   .w-sm-287 {
     width: 287px;
+  }
+
+  .popup {
+    width: calc(100% - 30px);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  input[type=date]::-webkit-calendar-picker-indicator {
+    right: 5%;
   }
 
   .f-direction-sm-column {

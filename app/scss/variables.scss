@@ -5,6 +5,7 @@ $warning: #fc9b09;
 $info: #5286ec;
 $border: #c7c7c7;
 $bg-footer: #faf9f8;
+$red: red;
 
 @font-face {
   font-weight: 900;
@@ -64,11 +65,11 @@ a {
 }
 
 .text-gray {
-    color: $gray;
+  color: $gray;
 }
 
 .text-dark {
-    color: $dark;
+  color: $dark;
 }
 
 .text-warning {
@@ -77,4 +78,8 @@ a {
 
 .text-light {
   color: $light;
+}
+
+.text-red {
+  color: $red;
 }

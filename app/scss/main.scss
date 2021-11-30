@@ -1,39 +1,39 @@
 .banner {
-    background: no-repeat top 0 left 0/contain url("./images/helimain.png");
-    padding: 13.93% 33.25% 13.57% 20.46%;
+  background: no-repeat top 0 left 0/contain url("./images/helimain.png");
+  padding: 13.93% 33.25% 13.57% 20.46%;
 }
 
 .price {
-    width: 224px;
-    height: 87px;
-    color: $light;
-    background-color: $warning;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+  width: 224px;
+  height: 87px;
+  color: $light;
+  background-color: $warning;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
 .ellipse {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 52px;
-    height: 52px;
-    border: 1px solid $light;
-    border-radius: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  border: 1px solid $light;
+  border-radius: 26px;
 }
 
 .button {
-     height: 68px;
-    display: block;
-    width: 304px;
-    color: $light;
-    box-sizing: border-box;
-    border: 3px solid $light;
-    border-radius: 3px;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    padding: 24px 37px;
+  height: 68px;
+  display: block;
+  width: 304px;
+  color: $light;
+  box-sizing: border-box;
+  border: 3px solid $light;
+  border-radius: 3px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 24px 37px;
 }
 
 header,
@@ -43,8 +43,8 @@ header,
 #available-shooting,
 #reviews,
 #social {
-    width: 1137px;
-    margin: 0 auto;
+  width: 1137px;
+  margin: 0 auto;
 }
 
 .watch {
@@ -68,6 +68,7 @@ header,
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  z-index: -1;
 }
 
 .watch-1 {
@@ -96,14 +97,14 @@ header,
 }
 
 .review-border {
-    width: 569px;
-    padding: 25px 0 25px 0;
-    border-top: 0.5px solid $border;
-    border-bottom: 0.5px solid $border;
+  width: 569px;
+  padding: 25px 0 25px 0;
+  border-top: 0.5px solid $border;
+  border-bottom: 0.5px solid $border;
 }
 
 .review {
-    width: 510px;
+  width: 510px;
 }
 
 .reviews-border {
@@ -112,10 +113,10 @@ header,
 }
 
 .container {
-    width: 40.1vw;
-    box-sizing: border-box;
-    border: 1px solid $border;
-    padding: 23px 30px 42px 27px;
+  width: 40.1vw;
+  box-sizing: border-box;
+  border: 1px solid $border;
+  padding: 23px 30px 42px 27px;
 }
 
 .line {
@@ -125,17 +126,17 @@ header,
 }
 
 .container-time {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .select {
-    box-sizing: border-box;
-    height: 50px;
-    width: 129px;
-    background-color: $light;
-    border: 2px solid $warning;
-    border-radius: 3px;
-    color: $warning;
+  box-sizing: border-box;
+  height: 50px;
+  width: 129px;
+  background-color: $light;
+  border: 2px solid $warning;
+  border-radius: 3px;
+  color: $warning;
 }
 
 .map {

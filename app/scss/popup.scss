@@ -1,0 +1,207 @@
+.popup__bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s all;
+  overflow-y: auto;
+}
+
+.popup__bg.active {
+  opacity: 1;
+  pointer-events: all;
+  transition: 0.5s all;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: $light;
+  box-sizing: border-box;
+  width: 615px;
+  padding: 60px 97.5px;
+  border-radius: 6px;
+  transition: 0.5s all;
+}
+
+.popup.active {
+  transform: translate(-50%, -50%) scale(1);
+  transition: 0.5s all;
+}
+
+.close-popup {
+  position: absolute;
+  top: 22px;
+  right: 24px;
+  cursor: pointer;
+}
+
+.popup__title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.popup label {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+ .popup label:nth-of-type(7) {
+  flex-direction: row;
+  width: 80%;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  -webkit-appearance: none;
+  position: absolute;
+  right: 16.6%;
+}
+
+input[type=date] {
+  background: url(./images/calendar.png) no-repeat 99% 50%;
+  width: 100%;
+}
+
+.custom-checkbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.custom-checkbox .checkbox {
+  margin-right: 10px;
+}
+
+.hidden-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+
+.checkbox {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border: 1px solid $warning;
+  background: $warning;
+  box-shadow: 0px 0px 3px rgba(252, 155, 9, 0.6);
+  border-radius: 2px;
+  z-index: -1;
+}
+
+.checkmark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: auto;
+  display: none;
+}
+
+.popup label:nth-last-of-type(1) + input:checked ~ .d-flex .checkbox .checkmark {
+  display: block;
+}
+
+.popup label:nth-of-type(6) {
+  margin-bottom: 0;
+}
+
+.popup .label__text {
+  font-weight: 500;
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+.popup input {
+  height: 44px;
+  outline: none;
+  border: 1px solid $border;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+
+.popup label:nth-of-type(6) input {
+  border-radius: 3px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.popup .d-flex label:nth-of-type(1) input {
+  border-top: none;
+  border-right: none;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  box-sizing: border-box;
+}
+
+.popup .d-flex label:nth-of-type(2) input {
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.popup input:focus {
+  border-bottom: 1px solid $info;
+}
+
+.popup input:focus + .label__text {
+  color: $info;
+}
+
+.popup input:invalid {
+  border: 1px dashed $red;
+}
+
+.popup textarea {
+  resize: none;
+  width: 100%;
+  height: 150px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #cfd0d3;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.popup textarea:focus {
+  border-bottom: 1px solid $info;
+}
+
+.popup textarea:focus + .label__text {
+  color: $info;
+}
+
+.popup button {
+  width: 390px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: $light;
+  border: 2px solid $warning;
+  background: $warning;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.popup button:hover {
+  background: $light;
+  color: $info;
+  transition: 0.5s all;
+}
+

@@ -23,6 +23,54 @@
           <path d="m 109,0 L 119,10 129,0" fill="#fc9b09" stroke="#fc9b09"></path>
         </svg><a class="button" href="#">Забронировать место</a>
       </section>
+      <div class="popup__bg"> 
+        <form class="popup mt-21 mt-lg-100 mt-md-160" action="#"><img class="close-popup" src="./images/close.png" alt="to close">
+          <h2 class="popup__title">Бронирование</h2>
+          <div class="label__text">Дата<span class="text-red">*</span></div>
+          <label>
+            <input type="date" name="calendar" required>
+          </label>
+          <div class="label__text">Email<span class="text-red">*</span></div>
+          <label>
+            <input type="email" name="name" placeholder="Электронная почта" required>
+          </label>
+          <div class="label__text">Имя<span class="text-red">*</span></div>
+          <label>
+            <input type="text" name="name" required>
+          </label>
+          <div class="label__text">Фамилия<span class="text-red">*</span></div>
+          <label>
+            <input type="text" name="name" required>
+          </label>
+          <div class="label__text">Телефон<span class="text-red">*</span></div>
+          <label>
+            <input type="tel" name="phone" pattern="+7s?[(]{0,1}9[0-9]{2}[)]{0,1}s?d{3}[-]{0,1}d{2}[-]{0,1}d{2}" minlength="16" maxlength="16" required>
+          </label>
+          <div class="label__text">Данные карты<span class="text-red">*</span></div>
+          <label>
+            <input type="number" name="name" min="0000000000000000" max="9999999999999999" placeholder="Номер карты" required>
+          </label>
+          <div class="d-flex"> 
+            <label>
+              <input type="number" name="name" placeholder="Срок действия" required>
+            </label>
+            <label>
+              <input type="number" name="name" min="100" max="999" placeholder="CVV" required>
+            </label>
+          </div>
+          <label class="custom-checkbox" for="checkbox"></label>
+          <input class="hidden-checkbox" id="checkbox" type="checkbox" required>
+          <div class="d-flex mt-18">
+            <div class="checkbox mr-10"> 
+              <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 24 24">
+                <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
+              </svg>
+            </div>
+            <div class="w-91percent">Я согласен с пользовательским соглашением и публичной офертой</div>
+          </div>
+          <button class="m-0-auto mt-29">Забронировать</button>
+        </form>
+      </div>
       <section class="fw-500 pt-70 pt-sm-36" id="photosession">
         <div class="d-flex justify-content-between f-direction-md-column"> 
           <div class="mr-40 mr-md-0 text-md-center"> 
@@ -202,5 +250,6 @@
         </div>
       </div>
     </footer>
+    <script src="./scripts/popup.js">  </script>
   </body>
 </html>
