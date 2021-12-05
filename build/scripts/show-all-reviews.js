@@ -1,8 +1,8 @@
-let arrowToDownLeftReviews = document.querySelector('#reviews img[id="arrow-to-down-left-reviews"]');
-let showAllReviews = document.querySelector('#reviews a[id="show-all-reviews"]');
-let arrowToDownRightReviews = document.querySelector('#reviews img[id="arrow-to-down-right-reviews"]');
-let hideAllReviews = document.querySelector('#reviews a[id="hide-all-reviews"]');
-let addAllReviews = document.querySelectorAll('.review > .d-none');
+const arrowToDownLeftReviews = document.querySelector('#reviews img[id="arrow-to-down-left-reviews"]');
+const showAllReviews = document.querySelector('#reviews a[id="show-all-reviews"]');
+const arrowToDownRightReviews = document.querySelector('#reviews img[id="arrow-to-down-right-reviews"]');
+const hideAllReviews = document.querySelector('#reviews a[id="hide-all-reviews"]');
+const addAllReviews = document.querySelectorAll('.review > .d-none');
 
 const numberOfProminentReviews = 3;
 const numberOfReviews = numberOfProminentReviews + addAllReviews.length;

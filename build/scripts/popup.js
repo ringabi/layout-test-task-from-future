@@ -1,22 +1,22 @@
-let popupBg = document.querySelector('.popup__bg'); // Фон попап окна
-let popup = document.querySelector('.popup'); // Само окно
-let openPopupButton = document.querySelector('.banner .button'); // Кнопка для показа окна
-let closePopupButton = document.querySelector('.close-popup'); // Кнопка для скрытия окна
+const popupBg = document.querySelector('.popup__bg');
+const popup = document.querySelector('.popup');
+const openPopupButton = document.querySelector('.banner .button');
+const closePopupButton = document.querySelector('.close-popup');
 
-openPopupButton.addEventListener('click', (e) => { // Для кнопки вешаем обработчик событий на клик
-    e.preventDefault(); // Предотвращаем дефолтное поведение браузера
-    popupBg.classList.add('active'); // Добавляем класс 'active' для фона
-    popup.classList.add('active'); // И для самого окна
+openPopupButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    popupBg.classList.add('active');
+    popup.classList.add('active');
 });
 
-closePopupButton.addEventListener('click',() => { // Вешаем обработчик на крестик
-    popupBg.classList.remove('active'); // Убираем активный класс с фона
-    popup.classList.remove('active'); // И с окна
+closePopupButton.addEventListener('click',() => {
+    popupBg.classList.remove('active');
+    popup.classList.remove('active');
 });
 
-document.addEventListener('click', (e) => { // Вешаем обработчик на весь документ
-    if(e.target === popupBg) { // Если цель клика - фот, то:
-        popupBg.classList.remove('active'); // Убираем активный класс с фона
-        popup.classList.remove('active'); // И с окна
+document.addEventListener('click', (e) => {
+    if(e.target === popupBg) {
+        popupBg.classList.remove('active');
+        popup.classList.remove('active');
     }
 });

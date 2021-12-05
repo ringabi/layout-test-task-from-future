@@ -1,23 +1,25 @@
 section.map.mb-91(id="map") 
-  .shooting-information.mt-sm-300 
-    .d-flex.d-sm-block
-      .d-flex.justify-content-between.align-items-sm-center   
+  .shooting-information.mt-sm-300.slider
+    .d-flex.justify-content-between.align-items-sm-center.mt-sm-20     
+      a.previous(onclick="previousSlide()")
         img.mt-sm-8.d-none.d-sm-block(src="./images/arrow-to-left.png", alt="arrow to left", width="19", height="10")  
-        img.mr-18(src="./images/paragraph-1.svg", alt="paragraph 1", width="66", height="66")
+      a.next(onclick="nextSlide()")
         img.mt-sm-8.d-none.d-sm-block(src="./images/arrow-to-right.png", alt="arrow to right", width="19", height="10")
+    .d-flex.d-sm-block.item.text-sm-center.mt-sm-minus47    
+      img.mr-18.mr-sm-0(src="./images/paragraph-1.svg", alt="paragraph 1", width="66", height="66")
       div 
-        .fs-18.fw-500.lh-150percent.text-dark.text-sm-center.mt-sm-17 Где встречаемся?
-        .fs-18.fw-normal.lh-145percent.text-dark.text-sm-center.mt-sm-5.ml-sm-4 Москва
-    .d-flex.mt-34.d-sm-none 
-      img.mr-18(src="./images/paragraph-2.svg", alt="paragraph 2", width="61", height="61")
+        .fs-18.fw-500.lh-150percent.text-dark.mt-sm-17 Где встречаемся?
+        .fs-18.fw-normal.lh-145percent.text-dark.mt-sm-5.ml-sm-4 Москва
+    .d-flex.mt-34.d-sm-none.item.text-sm-center.mt-sm-minus47    
+      img.mr-18.mr-sm-0(src="./images/paragraph-2.svg", alt="paragraph 2", width="61", height="61")
+      div   
+        .fs-18.fw-500.lh-150percent.text-dark.mt-sm-17 Время съемки
+        .fs-18.fw-normal.lh-145percent.text-dark.mt-sm-5.ml-sm-4 3 часа
+    .d-flex.mt-34.d-sm-none.item.text-sm-center.mt-sm-minus47   
+      img.mr-18.mr-sm-0(src="./images/paragraph-3.svg", alt="paragraph 3")
       div 
-        .fs-18.fw-500.lh-150percent.text-dark Время съемки
-        .fs-18.fw-normal.lh-145percent.text-dark 3 часа
-    .d-flex.mt-34.d-sm-none
-      img.mr-18(src="./images/paragraph-3.svg", alt="paragraph 3")
-      div 
-        .fs-18.fw-500.lh-150percent.text-dark Мест осталось:
-        .fs-18.fw-normal.lh-145percent.text-dark 2 места
+        .fs-18.fw-500.lh-150percent.text-dark.mt-sm-17 Мест осталось:
+        .fs-18.fw-normal.lh-145percent.text-dark.mt-sm-5.ml-sm-4 2 места
     .d-none.d-sm-flex.justify-content-sm-center.mt-sm-20  
       .radio-button
       .radio-button.mx-10  
@@ -28,6 +30,8 @@ section.map.mb-91(id="map")
       .mt-sm-minus5 
         .fs-18.fw-500.lh-150percent.text-dark Мария Иванова
         .fs-18.fw-normal.lh-145percent.text-dark.mt-sm-3 Фотограф
+        .d-none.fs-14.mt-7(id="add-about-photographer-map") Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
         .fs-14.fw-500.lh-150percent.mt-sm-3  
-          a(href="#") Показать больше информации
-            span.d-none.d-sm-block о фотографе 
+          a(id="show-more-info-about-photographer-map", href="#map") Показать больше информации
+            span.d-none.d-sm-block о фотографе
+          a.d-none.fs-14.lh-150percent.fw-500.mt-12.text-center(id="hide-more-info-about-photographer-map", href="#map") Скрыть 
