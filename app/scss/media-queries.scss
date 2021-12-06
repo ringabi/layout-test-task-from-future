@@ -371,6 +371,16 @@
     font-weight: normal;
   }
 
+  .section {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .section_item {
+    scroll-snap-align: start;
+  }
+
   #about-organizer .mr-115 {
     margin-right: 0;
   }
@@ -653,6 +663,10 @@
 
   .ml-sm-4 {
     margin-left: 4px;
+  }
+
+  .ml-sm-11 {
+    margin-left: 11px;
   }
 
   .ml-sm-28 {
