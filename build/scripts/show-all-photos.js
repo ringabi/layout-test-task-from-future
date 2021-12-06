@@ -10,7 +10,7 @@ showAllPhotos.addEventListener('click', () => {
     showAllPhotos.style.display = 'none';
     arrowToDownRight.style.display = 'none';
 
-    for (let i = 8; i < addAllPhotos.length - numberArrowToDown; i = i + 1) {
+    for (let i = 8; i < addAllPhotos.length - numberArrowToDown; i += 1) {
         addAllPhotos[i].style.display = 'inline';
     }
 
@@ -20,7 +20,7 @@ showAllPhotos.addEventListener('click', () => {
 hideAllPhotos.addEventListener('click', () => {
     hideAllPhotos.style.display = 'none';
 
-    for (let i = 8; i < addAllPhotos.length - 2; i = i + 1) {
+    for (let i = 8; i < addAllPhotos.length - 2; i += 1) {
         addAllPhotos[i].style.display = 'none';
     }
 
