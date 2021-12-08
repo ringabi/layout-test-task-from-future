@@ -146,12 +146,31 @@ header,
   padding: 1.041667vw 0 1.041667vw 20.31%;
 }
 
+//----------------------
+#map {
+  width: 98.85vw;
+//  height: 26.57vw;
+  height: 509px;
+  position: absolute;
+  margin-top: -483px;
+}
+
+.ya_map {
+	font-weight: normal;
+	font-size: 12px;
+	color: $dark;
+}
+
 .shooting-information {
   width: 420px;
   background-color: $light;
   box-sizing: border-box;
   border: 1px solid $border;
   padding: 2.65vw 30px 3.02vw 30px;
+  position: relative;
+  top: 495px;
+  left: 390px;
+  z-index: 1;
 }
 
 .radio-button {

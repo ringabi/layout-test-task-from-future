@@ -4,12 +4,25 @@
     width: 51.98px;
   }
 
+  #map {
+    margin-top: -439px;
+  }
+
+  #map ymaps {
+    max-height: 475px;
+  }
+
   .shooting-information {
+    top: 459px;
     padding: 2.65vw 30px 2.65vw 30px;
   }
 
   .mt-lg-100 {
     margin-top: 100px;
+  }
+
+  .mt-722 {
+    margin-top: 610px;
   }
 }
 
@@ -31,7 +44,17 @@
     width: 45px;
   }
 
+  #map {
+  //  height: 440px;
+    margin-top: -360px;
+  }
+
+  #map ymaps {
+    max-height: 423px;
+  }
+
   .shooting-information {
+    top: 388px;
     padding: 1.65vw 30px 1.65vw 30px;
   }
 
@@ -41,6 +64,10 @@
 
   #map .fs-14 {
     font-size: 12px;
+  }
+
+  .mt-722 {
+    margin-top: 510px;
   }
 }
 
@@ -74,6 +101,10 @@
     background: no-repeat left -260px top 0 url('./images/map.png');
   }
 
+  .shooting-information {
+    left: 240px;
+  }
+
   .mt-md-160 {
     margin-top: 10rem;
   }
@@ -104,6 +135,15 @@
   .map {
     background: no-repeat left -460px top 0 url('./images/map.png');
     padding: 1.041667vw 0 1.041667vw 9.31%;
+  }
+
+  #map {
+    margin-top: -340px;
+  }
+
+  .shooting-information {
+    top: 360px;
+    left: 100px;
   }
 
   .w-549 {
@@ -149,6 +189,10 @@
   .map {
     background: no-repeat left -610px top 0 url('./images/map.png');
     padding: 1.041667vw 0 1.041667vw 9.31%;
+  }
+
+  #map {
+    margin-top: -290px;
   }
 
   .shooting-information {
@@ -217,6 +261,7 @@
 
   .shooting-information {
     width: 247px;
+    left: 50px;
     padding: 1.65vw 15px;
   }
 
@@ -420,8 +465,14 @@
     font-size: 14px;
   }
 
+  #map {
+    margin-top: -360px;
+  }
+
   .shooting-information {
     width: 365px;
+    top: 790px;
+    left: 30px;
     padding: 14px 26px;
   }
 
@@ -533,6 +584,10 @@
     margin-top: 41px;
   }
 
+  .mt-722 {
+    margin-top: 860px;
+  }
+
   .mt-sm-minus47 {
     margin-top: -47px;
   }
@@ -621,9 +676,9 @@
     margin-top: 60px;
   }
 
-  .mt-sm-300 {
-    margin-top: 451px;
-  }
+//  .mt-sm-300 {
+//    margin-top: 451px;
+//  }
 
   .mr-sm-0 {
     margin-right: 0;
@@ -791,14 +846,20 @@
     font-size: 18px;
   }
 
+  #map {
+    margin-top: -380px;
+  }
+
   .shooting-information {
     width: 274px;
+    top: 857px;
+    left: 23px;
     padding: 16.25vw 15px 14px 26px;
   }
 
-  .map {
-    background: no-repeat url('./images/map-mobile.png');
-  }
+  //.map {
+  //  background: no-repeat url('./images/map-mobile.png');
+  //}
 
   .review {
     width: 290px;
@@ -831,8 +892,8 @@
     flex-direction: column;
   }
 
-  .mt-sm-300 {
-    margin-top: 472px;
+  .mt-722 {
+    margin-top: 940px;
   }
 
   .mt-sm-41 {
