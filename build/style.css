@@ -137,6 +137,10 @@ a {
   text-align: center;
 }
 
+.position-relative {
+  position: relative;
+}
+
 .d-none {
   display: none;
 }
@@ -563,6 +567,19 @@ header,
   width: 27.91px;
 }
 
+.position-button-play {
+  position: relative;
+  top: 325px;
+  left: 650px;
+}
+
+.close-video {
+  position: absolute;
+  top: -22px;
+  right: 0;
+  cursor: pointer;
+}
+
 .review-border {
   width: 569px;
   padding: 25px 0 25px 0;
@@ -948,6 +965,11 @@ input[type=date] {
     padding: 7.93% 33.25% 13.57% 20.46%;
   }
 
+  .position-button-play {
+    top: 27.59vw;
+    left: 55.18vw;
+  }
+
   #package-photos .mt-37 img {
     width: calc((calc(100vw - 40px) - 33px) / 4);
     height: auto;
@@ -971,9 +993,14 @@ input[type=date] {
     padding: 4.93% 23.25% 13.57% 15.46%;
   }
 
-  #photosession div:nth-child(1) > img {
-    height: 19.48%;
+  #photosession div:nth-child(1) > img:nth-of-type(2),
+#video-control iframe {
+    height: 33.71vw;
     width: calc(100vw / 2);
+  }
+
+  .position-button-play {
+    left: 52vw;
   }
 
   #photosession .fs-40 {
@@ -1026,6 +1053,10 @@ input[type=date] {
   .price {
     height: 78px;
     width: 200px;
+  }
+
+  .position-button-play {
+    left: 51.5vw;
   }
 
   .container {
@@ -1098,9 +1129,15 @@ input[type=date] {
     padding: 24px 33px;
   }
 
-  #photosession div:nth-child(1) > img {
+  #photosession div:nth-child(1) > img:nth-of-type(2),
+#video-control iframe {
     height: 262px;
     width: 385.6px;
+  }
+
+  .position-button-play {
+    top: 40vw;
+    left: 72vw;
   }
 
   .review-border {
@@ -1223,8 +1260,9 @@ input[type=date] {
   }
 
   #package-photos {
-    width: calc(100vw - 40px);
-    margin: 0 auto;
+    width: calc(100vw - 20px);
+    margin-left: 20px;
+    margin-right: auto;
   }
 
   .header {
@@ -1256,9 +1294,15 @@ input[type=date] {
     font-size: 14px;
   }
 
-  #photosession div:nth-child(1) > img {
+  #photosession div:nth-child(1) > img:nth-of-type(2),
+#video-control iframe {
     height: 61.56vw;
     width: calc(100vw - 40px);
+  }
+
+  .position-button-play {
+    top: 61vw;
+    left: 82vw;
   }
 
   #photosession .review-border .fw-600,
@@ -1617,6 +1661,7 @@ input[type=date] {
 
   .shooting-information {
     width: 325px;
+    left: 25px;
   }
 
   #available-shooting .container div:nth-of-type(2) ~ .fs-18:nth-of-type(4) {
@@ -1655,15 +1700,17 @@ input[type=date] {
   }
 
   #package-photos {
-    width: calc(100vw - 30px);
-    margin: 0 auto;
+    width: calc(100vw - 15px);
+    margin-left: 15px;
+    margin-right: auto;
   }
 
   .banner {
     background: no-repeat url("./images/helimain-mobile.png");
   }
 
-  #photosession div:nth-child(1) > img {
+  #photosession div:nth-child(1) > img:nth-of-type(2),
+#video-control iframe {
     height: 61.56vw;
     width: calc(100vw - 30px);
   }

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Тестовое задание Рината Габидуллина</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;amp;apikey=a218b144-dcd9-41c7-af4d-5ff0bdfeadc7" type="text/javascript"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;amp;apikey=a218b144-dcd9-41c7-af4d-5ff0bdfeadc7"></script>
   </head>
   <body>
     <header class="header"><img src="./images/helyfly.png" alt="Логотип" width="128" height="23"><span class="text-gray ml-36 fs-14 d-sm-none">Телефон:</span><span class="text-dark fs-14 d-sm-none">8(800)-123-12-12</span><a class="fs-14 mr-40 mb-minus4 d-none d-sm-block">Москва</a><img class="d-none d-sm-block" src="./images/human-profile.svg" alt="human profile" width="20" height="20"></header>
@@ -77,7 +77,10 @@
           <div class="mr-40 mr-md-0 text-md-center"> 
             <div class="fs-40 mt-3 lh-122percent">Фотосессия </div>
             <div class="fs-40 lh-122percent">в вертолете</div>
-          </div><img class="mt-md-13 m-md-0-auto" src="images/kiss-in-the-air.png" alt="kiss in the air" width="554" height="374">
+          </div><img class="position-button-play" src="./images/button-video-play.png" alt="button video play" width="16" height="23"><img class="mt-md-13 m-md-0-auto" src="images/kiss-in-the-air.png" alt="kiss in the air" width="554" height="374">
+          <div class="d-none mt-md-13 m-md-0-auto position-relative" id="video-control"><img class="close-video" src="./images/close.png" alt="to close">
+            <iframe id="my-iframe" width="554" height="374" src="https://www.youtube.com/embed/xePJ6jlSJMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
         <div class="fs-18 fw-normal lh-145percent w-549 mt-minus260 mt-md-30">Полет на вертолете это прекрасная возможность получить новые ощущения! А наш замечательный фотограф запечатлит лучшие моменты<span class="d-none d-sm-inline">!</span></div>
         <div class="d-flex align-items-center mt-18 mt-sm-27"> <img class="mr-10 d-sm-none" src="./images/watch.svg" alt="watch">
@@ -306,5 +309,6 @@
     <script src="./scripts/slider.js"></script>
     <script src="./scripts/show-all-reviews.js"></script>
     <script src="./scripts/scroll-photo.js"></script>
+    <script src="./scripts/video.js"> </script>
   </body>
 </html>

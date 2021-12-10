@@ -96,6 +96,20 @@ header,
   width: 27.91px;
 }
 
+.position-button-play {
+  position: relative;
+  top: 325px;
+  left: 650px;
+}
+
+.close-video {
+  position: absolute;
+  top: -22px;
+  right: 0;
+  cursor: pointer;
+}
+
+
 .review-border {
   width: 569px;
   padding: 25px 0 25px 0;
@@ -146,10 +160,8 @@ header,
   padding: 1.041667vw 0 1.041667vw 20.31%;
 }
 
-//----------------------
 #map {
   width: 98.85vw;
-//  height: 26.57vw;
   height: 509px;
   position: absolute;
   margin-top: -483px;
