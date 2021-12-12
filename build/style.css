@@ -971,7 +971,7 @@ input[type=date] {
   }
 
   #package-photos .mt-37 img {
-    width: calc((calc(100vw - 40px) - 33px) / 4);
+    width: calc((100vw - 40px - 33px) / 4);
     height: auto;
   }
 
@@ -996,7 +996,7 @@ input[type=date] {
   #photosession div:nth-child(1) > img:nth-of-type(2),
 #video-control iframe {
     height: 33.71vw;
-    width: calc(100vw / 2);
+    width: 50vw;
   }
 
   .position-button-play {
@@ -1801,5 +1801,3 @@ input[type=date] {
     padding-bottom: 41px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

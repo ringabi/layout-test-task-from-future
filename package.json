@@ -1,0 +1,30 @@
+{
+  "name": "layout-test-task-from-future",
+  "version": "1.0.0",
+  "description": "layout test task from future",
+  "main": "build/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ringabi/layout-test-task-from-future.git"
+  },
+  "keywords": [
+    "layout",
+    "test",
+    "task",
+    "future"
+  ],
+  "author": "Rinat Gabidullin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ringabi/layout-test-task-from-future/issues"
+  },
+  "homepage": "https://github.com/ringabi/layout-test-task-from-future#readme",
+  "devDependencies": {
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.45.0"
+  }
+}
