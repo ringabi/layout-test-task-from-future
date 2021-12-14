@@ -1,1 +1,312 @@
-<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Тестовое задание Рината Габидуллина</title><link rel="stylesheet" href="./style.css"><script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;amp;apikey=a218b144-dcd9-41c7-af4d-5ff0bdfeadc7"></script></head><body><header class="header"><img src="./images/helyfly.png" alt="Логотип" width="128" height="23"><span class="text-gray ml-36 fs-14 d-sm-none">Телефон:</span><span class="text-dark fs-14 d-sm-none">8(800)-123-12-12</span><a class="fs-14 mr-40 mb-minus4 d-none d-sm-block">Москва</a><img class="d-none d-sm-block" src="./images/human-profile.svg" alt="human profile" width="20" height="20"></header><main><section class="banner" id="banner"> <h1> <span class="text-light fs-40">Эксклюзивная</span><span class="text-warning fs-40"> фотосессия</span><span class="text-light fs-40"> при полете на вертолете</span></h1><div class="price d-flex f-direction-row justify-content-center align-items-center"><div class="mr-14"> <div class="fs-20">Стоимость</div><div class="fs-35 fw-800">1500&#8381;</div></div><div class="ellipse"><span class="fs-35">%</span></div></div><svg width="224" height="15"> <path d="m 109,0 L 119,10 129,0" fill="#fc9b09" stroke="#fc9b09"></path></svg><a class="button" href="#">Забронировать место</a></section><div class="popup__bg"> <form class="popup mt-21 mt-lg-100 mt-md-160" action="#"><img class="close-popup" src="./images/close.png" alt="to close"><h2 class="popup__title">Бронирование</h2><div class="label__text">Дата<span class="text-red">*</span></div><label><input type="date" name="calendar" required></label><div class="label__text">Email<span class="text-red">*</span></div><label><input type="email" name="name" placeholder="Электронная почта" required></label><div class="label__text">Имя<span class="text-red">*</span></div><label><input type="text" name="name" required></label><div class="label__text">Фамилия<span class="text-red">*</span></div><label><input type="text" name="name" required></label><div class="label__text">Телефон<span class="text-red">*</span></div><label><input type="tel" name="phone" pattern="+7s?[(]{0,1}9[0-9]{2}[)]{0,1}s?d{3}[-]{0,1}d{2}[-]{0,1}d{2}" minlength="16" maxlength="16" required></label><div class="label__text">Данные карты<span class="text-red">*</span></div><label><input type="number" name="name" min="0000000000000000" max="9999999999999999" placeholder="Номер карты" required></label><div class="d-flex"> <label><input type="number" name="name" placeholder="Срок действия" required></label><label><input type="number" name="name" min="100" max="999" placeholder="CVV" required></label></div><label class="custom-checkbox" for="checkbox"></label><input class="hidden-checkbox" id="checkbox" type="checkbox" required><div class="d-flex mt-18"><div class="checkbox mr-10"> <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 24 24"><path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path></svg></div><div class="w-91percent">Я согласен с пользовательским соглашением и публичной офертой</div></div><button class="m-0-auto mt-29">Забронировать</button></form></div><section class="fw-500 pt-70 pt-sm-36" id="photosession"><div class="d-flex justify-content-between f-direction-md-column"> <div class="mr-40 mr-md-0 text-md-center"> <div class="fs-40 mt-3 lh-122percent">Фотосессия </div><div class="fs-40 lh-122percent">в вертолете</div></div><img class="position-button-play" src="./images/button-video-play.png" alt="button video play" width="16" height="23"><img class="mt-md-13 m-md-0-auto" src="images/kiss-in-the-air.png" alt="kiss in the air" width="554" height="374"><div class="d-none mt-md-13 m-md-0-auto position-relative" id="video-control"><img class="close-video" src="./images/close.png" alt="to close"><iframe id="my-iframe" width="554" height="374" src="https://www.youtube.com/embed/xePJ6jlSJMI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div><div class="fs-18 fw-normal lh-145percent w-549 mt-minus260 mt-md-30">Полет на вертолете это прекрасная возможность получить новые ощущения! А наш замечательный фотограф запечатлит лучшие моменты<span class="d-none d-sm-inline">!</span></div><div class="d-flex align-items-center mt-18 mt-sm-27"> <img class="mr-10 d-sm-none" src="./images/watch.svg" alt="watch"><div class="watch d-none d-sm-block mr-sm-13 ml-sm-2"> <img class="watch-1" src="./images/watch-1.png" alt=""><div class="watch-2"> <img src="./images/watch-2.png" alt=""></div><div class="watch-3"> <img src="./images/watch-3.png" alt=""></div><div class="watch-4"> <img src="./images/watch-4.png" alt=""></div><div class="watch-5"> <img src="./images/watch-5.png" alt=""></div></div><span class="fs-14">3 часа съемки</span></div><div class="align-items-center mt-sm-3 d-none d-sm-flex"> <img class="mr-sm-13" src="./images/speech-bubble.svg" alt="speech bubble"><span class="fs-14 fw-500">Русский</span></div><div class="align-items-center mt-sm-13 d-none d-sm-flex"> <img class="mr-sm-13" src="./images/payment.png" alt="payment"><span class="fs-14 fw-500">от 850$</span></div><div class="align-items-center mt-16 d-none d-sm-flex"> <img class="mr-10" src="./images/map-pin-marked.svg" alt="point on the map"><span class="fs-14 fw-500">Дубаи</span></div><div class="d-flex align-items-center mt-18"><img class="mr-7" src="./images/camera.svg" alt="camera"><span class="fs-14 fw-500">Более 50 фотографий</span></div><div class="d-flex align-items-center mt-16 d-sm-none"> <img class="mr-10" src="./images/map-pin-marked.svg" alt="point on the map"><span class="fs-14">Москва</span></div><div class="d-flex align-items-center mt-16 d-sm-none"> <img class="mr-10" src="./images/speech-bubble.svg" alt="speech bubble"><span class="fs-14">Готовы ответить на любые вопросы</span></div><div class="review-border d-flex align-items-center mt-32 mt-sm-27"> <img class="mr-10 mr-sm-13 ml-sm-2" src="./images/cup.png" alt="cup"><div class="d-flex f-direction-md-column"> <div class="fs-18 fw-600 mr-8">Более <span class="d-sm-none">50</span><span class="d-none d-sm-inline">150</span><span> отзывов с оценкой</span></div><div class="mt-sm-9"> <img class="mr-7" src="images/Vectorstar.svg" alt="star"><img class="mr-7" src="images/Vectorstar.svg" alt="star"><img class="mr-7" src="images/Vectorstar.svg" alt="star"><img class="mr-7" src="images/Vectorstar.svg" alt="star"><img src="images/Vectorstar.svg" alt="star"></div></div></div></section><section id="package-photos"><h3 class="fs-20 fw-500 mt-30 mt-sm-60 text-sm-center ml-sm-2 w-sm-287">Фотографии пакета<span class="d-sm-none">:</span></h3><div class="mt-37 mt-sm-30 section">   <img class="section_item" src="images/girl-in-the-helicopter-cockpit.png" alt="girl in the helicopter cockpit"><img class="ml-11 section_item" src="images/helicopter-view.png" width="276" height="185" alt="helicopter view"><img class="ml-11 section_item" src="images/kiss-in-the-air.png" width="276" height="185" alt="kiss in the air"><img class="ml-11 section_item" src="images/girl-next-to-the-helicopter.png" alt="girl next to the helicopter"><img class="mt-7 ml-sm-11 mt-sm-0 section_item" src="images/kiss-in-the-air.png" width="276" height="185" alt="kiss in the air"><img class="mt-7 ml-11 mt-sm-0 section_item" src="images/girl-next-to-the-helicopter.png" alt="girl next to the helicopter"><img class="mt-7 ml-11 mt-sm-0 section_item" src="images/helicopter-view.png" width="276" height="185" alt="helicopter view"><img class="mt-7 ml-11 mt-sm-0 section_item" src="images/kiss-in-the-air.png" width="276" height="185" alt="kiss in the air"><img class="d-none mt-7 ml-sm-11 mt-sm-0 section_item" src="images/helicopter-view.png" width="276" height="185" alt="helicopter view"><img class="d-none mt-7 ml-11 mt-sm-0 section_item" src="images/girl-next-to-the-helicopter.png" alt="girl next to the helicopter"><img class="d-none mt-7 ml-11 mt-sm-0 section_item" src="images/kiss-in-the-air.png" width="276" height="185" alt="kiss in the air"><img class="d-none mt-7 ml-11 mt-sm-0 section_item" src="images/girl-in-the-helicopter-cockpit.png" alt="girl in the helicopter cockpit"><img class="d-none mt-7 ml-sm-11 mt-sm-0 section_item" src="images/helicopter-view.png" width="276" height="185" alt="helicopter view"><img class="d-none mt-7 ml-11 mt-sm-0 section_item" src="images/kiss-in-the-air.png" width="276" height="185" alt="kiss in the air"></div><div class="m-0-auto mt-41 w-220 d-sm-none"> <img id="arrow-to-down-left" src="images/arrow-to-down.png" alt="arrow to down"><a class="fs-17 fw-500 mx-10" id="show-all-photos" href="#package-photos">Показать все фото</a><img id="arrow-to-down-right" src="images/arrow-to-down.png" alt="arrow to down"><a class="d-none fs-17 fw-500 text-center" id="hide-all-photos" href="#package-photos">Скрыть</a></div><hr class="mt-26 d-sm-none"></section><section id="about-organizer"><div class="d-flex justify-content-between f-direction-md-column">  <div class="mt-8 order-md-2 mt-sm-3"> <h3 class="fs-18 fw-500">Об организаторе:</h3><div class="lh-150percent mt-minus4 pr-186 fw-normal">Всем привет! Я фотограф Мария! И по мимо фотосъемки я так же являюсь членом группы экспертов туристической отрасли, которые хорошо разбираются в маркетинге, операциях и услугах обслуживания клиентов, специализирующихся на совместном использовании и частных турах. </div><div class="lh-150percent mt-26 pr-186">Сначала мы (я и моя команда) изучаем интересы клиентов, а затем придумываем подходящее решение, которое соответствует бюджету и планам клиента. Мы никогда не зависим от субпоставщиков</div><div class="lh-150percent pr-186">и не свяжемся<span>…</span><div class="d-none lh-150percent" id="add-about-organizer">lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend.</div></div><a class="fw-500 mr-10 mr-sm-5" id="read-more-about-organizer" href="#about-organizer">Читать еще </a><img class="mt-16 mt-sm-30" src="images/arrow-to-down.png" alt="arrow to down"><a class="d-none fw-500 mr-10 mr-sm-5" id="hide-more-about-organizer" href="#about-organizer">Скрыть</a><h3 class="fs-18 fw-500 mt-39 mt-sm-29">Что я предоставлю:</h3><div class="lh-150percent mt-minus4 pr-246">Встречу вас на машине после длительного перелёта. Качественный подбор места и локации для вашей съемки.</div><div class="lh-150percent pr-186">При необходимости всегда возможно прерваться на обед/ужин.</div><div class="lh-150percent pr-186">Более 50 фотографий на выходе с обработкой и замечательные впечатления о Дубае !<div class="d-none lh-150percent pr-186" id="add-what-i-will-provide">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</div></div><a class="fw-500 mr-10 mr-sm-5" id="read-more-what-i-will-provide" href="#about-organizer">Читать еще </a><img class="mt-18 mt-sm-29" src="images/arrow-to-down.png" alt="arrow to down"><a class="d-none fw-500 mr-10 mr-sm-5" id="hide-more-what-i-will-provide" href="#about-organizer">Скрыть</a></div><div class="d-flex mrminus4 order-md-1"> <div class="d-flex f-direction-column align-items-center w-220 ml-sm-28"> <img class="mt-58" src="images/photographer.png" alt="photographer Marina Ivanova" width="139"><div class="fs-18 fw-500 mt-23">Марина Иванова</div><div class="fs-14 mt-7">Фотограф</div><div class="d-none fs-14 mt-7" id="add-about-photographer">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</div><a class="fs-14 lh-150percent fw-500 mt-12 text-center" id="show-more-info-about-photographer" href="#about-organizer">Показать больше информации о фотографе</a><a class="d-none fs-14 lh-150percent fw-500 mt-12 text-center" id="hide-more-info-about-photographer" href="#about-organizer">Скрыть</a></div><img class="mt-45 mr-115 ml-auto mr-sm-0" src="images/heart.svg" alt="orange heart" width="31" height="27"></div></div><hr class="mt-53 d-sm-none"></section><section id="available-shooting"><h3 class="fw-500 text-dark fs-20 lh-145percent lh-sm-129percent w-288 mt-45 mt-sm-39 text-sm-center mlsm-minus5"><span class="w-sm-287 mr-sm-17">Доступная съемка </span><br class="d-none d-sm-flex"><span class="ml-sm-minus10">в ближай</span><span class="d-sm-none">ш</span><span class="d-none d-sm-inline">щ</span><span>ее время</span><span class="d-sm-none">:</span></h3><div class="container mt-26 mb-82 mt-sm-36"> <div class="d-flex align-items-center justify-content-sm-center"> <div class="fw-normal fs-18 text-dark mr-18 mt-sm-minus5">Пятница, 14 сентября</div><img class="d-sm-none" src="./images/calendar.svg" alt="calendar"></div><div class="line mt-14 mt-sm-17"> </div><div class="d-flex justify-content-between align-items-center mt-21 f-direction-sm-column mt-sm-29"> <div> <div class="fw-normal fs-18 text-dark">15:00 - 18:00</div><div class="fw-600 fs-18 text-dark mt-10 d-sm-none">1500₽</div><div class="fw-600 fs-18 text-dark mt-10 d-none d-sm-block">850$</div><div class="fw-normal fs-18 text-dark mt-10">Осталось — 1 место</div></div><button class="select fw-500 fs-18 mt-sm-24">Выбрать</button></div><div class="line mt-21 mt-sm-29"> </div><div class="d-flex justify-content-between align-items-center mt-21 mt-sm-29 f-direction-sm-column"> <div> <div class="fw-normal fs-18 text-dark">19:00 - 22:00</div><div class="fw-600 fs-18 text-dark mt-10 d-sm-none">1500₽</div><div class="fw-600 fs-18 text-dark mt-10 d-none d-sm-block">850$</div><div class="fw-normal fs-18 text-dark mt-10">Осталось — 1 место</div></div><button class="select fw-500 fs-18 mt-sm-24">Выбрать</button></div><div class="line mt-sm-29 d-none d-sm-block"> </div><div class="d-flex align-items-center mt-66 mt-sm-29"> <img class="mr-10 mr-sm-13" src="./images/cup.png" alt="cup"><div class="d-flex f-direction-md-column"> <div class="fs-18 fw-600 mr-8 d-sm-none">Более 50 отзывов с оценкой</div><div class="fs-13 d-none d-sm-block ml-sm-2 mt-sm-3">Более 150 отзывов с оценкой</div><div class="mt-sm-9"> <img class="mr-7" src="images/Vectorstar.svg" alt="star"><img class="mr-7" src="images/Vectorstar.svg" alt="star"><img class="mr-7" src="images/Vectorstar.svg" alt="star"><img class="mr-7" src="images/Vectorstar.svg" alt="star"><img src="images/Vectorstar.svg" alt="star"></div></div></div></div></section><section id="map"> <div class="shooting-information slider"><div class="d-flex justify-content-between align-items-sm-center mt-sm-20">    <a class="previous" onclick="previousSlide()"><img class="mt-sm-8 d-none d-sm-block" src="./images/arrow-to-left.png" alt="arrow to left" width="19" height="10"></a><a class="next" onclick="nextSlide()"><img class="mt-sm-8 d-none d-sm-block" src="./images/arrow-to-right.png" alt="arrow to right" width="19" height="10"></a></div><div class="d-flex d-sm-block item text-sm-center mt-sm-minus47">   <img class="mr-18 mr-sm-0" src="./images/paragraph-1.svg" alt="paragraph 1" width="66" height="66"><div> <div class="fs-18 fw-500 lh-150percent text-dark mt-sm-17">Где встречаемся?</div><div class="fs-18 fw-normal lh-145percent text-dark mt-sm-5 ml-sm-4">Москва</div></div></div><div class="d-flex mt-34 d-sm-none item text-sm-center mt-sm-minus47">   <img class="mr-18 mr-sm-0" src="./images/paragraph-2.svg" alt="paragraph 2" width="61" height="61"><div>  <div class="fs-18 fw-500 lh-150percent text-dark mt-sm-17">Время съемки</div><div class="fs-18 fw-normal lh-145percent text-dark mt-sm-5 ml-sm-4">3 часа</div></div></div><div class="d-flex mt-34 d-sm-none item text-sm-center mt-sm-minus47">  <img class="mr-18 mr-sm-0" src="./images/paragraph-3.svg" alt="paragraph 3"><div> <div class="fs-18 fw-500 lh-150percent text-dark mt-sm-17">Мест осталось:</div><div class="fs-18 fw-normal lh-145percent text-dark mt-sm-5 ml-sm-4">2 места</div></div></div><div class="d-none d-sm-flex justify-content-sm-center mt-sm-20"> <div class="radio-button"></div><div class="radio-button mx-10"> </div><div class="radio-button"> </div></div><div class="d-flex mt-41"><img class="mr-18 ml-sm-4" src="./images/photographer.png" alt="photographer Marina Ivanova" width="67" height="67"><div class="mt-sm-minus5"> <div class="fs-18 fw-500 lh-150percent text-dark">Мария Иванова</div><div class="fs-18 fw-normal lh-145percent text-dark mt-sm-3">Фотограф</div><div class="d-none fs-14 mt-7" id="add-about-photographer-map">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</div><div class="fs-14 fw-500 lh-150percent mt-sm-3"> <a id="show-more-info-about-photographer-map" href="#show-more-info-about-photographer-map">Показать больше информации<span class="d-none d-sm-block">о фотографе</span></a><a class="d-none fs-14 lh-150percent fw-500 mt-12 text-center" id="hide-more-info-about-photographer-map" href="#map">Скрыть </a></div></div></div></div></section><section class="review" id="reviews"><h3 class="fw-500 fs-20 text-dark text-sm-center mt-722">Отзывы<span class="d-sm-none">:</span></h3><div class="d-flex mt-50 mt-sm-47">  <img class="mr-18" src="./images/valeria-antonova.png" alt="photo by Valeria Antonova" height="101" width="101"><div class="review"> <div class="fw-500 fs-18 mt-10 mt-sm-5">Валерия Антонова</div><div class="fs-14 mt-10 mt-sm-8">Арт-директор</div></div></div><div class="d-flex ml-119 d-sm-block mt-minus28 mt-sm-minus24">   <img class="mr-7 ml-sm-102" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-50" src="./images/Vectorstar.svg" alt="star"><div class="mt-sm-24">   <img class="mr-5" src="./images/check-mark.png" alt="check mark"><span class="fs-14 text-gray">Супер! Я бы заказала съемку снова!</span></div></div><p class="review mt-21 lh-150percent ml-119 mt-sm-17">Хотим выразить огромную благодарность вашей компании! Получили море ощущений, все прошло просто замечательно. Фотки получились великолепные, отдельное спасибо фотографу!</p><div class="fs-14 text-gray review reviews-border ml-119 pb-35 mt-sm-41 pb-sm-41">27 Апреля, 2019г.</div><div class="d-flex mt-29"> <img class="mr-18" src="./images/vitaly-petrov.png" alt="photo by Vitaly Petrov" height="101" width="101"><div class="review">  <div class="fw-500 fs-18 mt-10 mt-sm-5">Виталий Петров</div><div class="fs-14 mt-10 mt-sm-8">Фотограф</div></div></div><div class="d-flex ml-119 d-sm-block mt-minus28 mt-sm-minus24">  <img class="mr-7 ml-sm-102" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-50" src="./images/Vectorstar.svg" alt="star"><div class="mt-sm-30"> <img class="mr-5" src="./images/check-mark.png" alt="check mark"><span class="fs-14 text-gray">Супер! Я бы заказал съемку снова!</span></div></div><p class="review mt-21 lh-150percent ml-119 mt-sm-17">Восторг! :) Очень понравилось :) Захватили последний теплый, солнечный октябрьский день :) Впечатлило всё: сам вертолет, взлет, полёт, приземление.<br><span> Организация полёта отличная. Спасибо!</span></p><div class="fs-14 text-gray review reviews-border ml-119 pb-35 mt-sm-17 pb-sm-41">19 Апреля, 2019г.</div><div class="d-sm-none"> <div class="d-flex mt-29">  <img class="mr-18" src="./images/vitaly-petrov.png" alt="photo by Vitaly Petrov" height="101" width="101"><div class="review">  <div class="fw-500 fs-18 mt-10">Джим Керри</div></div></div><div class="d-flex ml-119 mt-minus48">  <img class="mr-7 ml-sm-119" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-50" src="./images/Vectorstar.svg" alt="star"><div class="mt-sm-30"> <img class="mr-5" src="./images/check-mark.png" alt="check mark"><span class="fs-14 text-gray">Супер! Я бы заказал съемку снова!</span></div></div><p class="review mt-21 lh-150percent ml-119">Круто-круто-круто!!! Отмечали мой ДэРэ. Отлично провели время!!! Кстати закуски были вкусными и сытными))Мы с собой ничего не брали. Сами много фоткались,поэтому воспоминания обалденные!!!)) А еще нам всем напечатали по сертификату воздухоплавателя, правда некоторые ленятся за ним съездить))) Но все равно приятно. Короче, Презентстар – проверено. Оценка: пять!</p><div class="fs-14 text-gray review reviews-border ml-119 pb-23">11 Апреля, 2019г.</div></div><div class="d-none"><div class="d-flex mt-50 mt-sm-47">  <img class="mr-18" src="./images/valeria-antonova.png" alt="photo by Valeria Antonova" height="101" width="101"><div class="review"> <div class="fw-500 fs-18 mt-10 mt-sm-5">Кира Найтли</div><div class="fs-14 mt-10 mt-sm-8">Актриса</div></div></div><div class="d-flex ml-119 d-sm-block mt-minus28 mt-sm-minus24">   <img class="mr-7 ml-sm-102" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-50" src="./images/Vectorstar.svg" alt="star"><div class="mt-sm-24">   <img class="mr-5" src="./images/check-mark.png" alt="check mark"><span class="fs-14 text-gray">Супер! Я бы заказала съемку снова!</span></div></div><p class="review mt-21 lh-150percent ml-119 mt-sm-17">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p><div class="fs-14 text-gray review reviews-border ml-119 pb-35 mt-sm-41 pb-sm-41">16 мая, 2019г.</div></div><div class="d-none"><div class="d-flex mt-29"> <img class="mr-18" src="./images/vitaly-petrov.png" alt="photo by Vitaly Petrov" height="101" width="101"><div class="review">  <div class="fw-500 fs-18 mt-10 mt-sm-5">Илон Маск</div><div class="fs-14 mt-10 mt-sm-8">Бизнесмен</div></div></div><div class="d-flex ml-119 d-sm-block mt-minus28 mt-sm-minus24">  <img class="mr-7 ml-sm-102" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-50" src="./images/Vectorstar.svg" alt="star"><div class="mt-sm-30"> <img class="mr-5" src="./images/check-mark.png" alt="check mark"><span class="fs-14 text-gray">Супер! Я бы заказал съемку снова!</span></div></div><p class="review mt-21 lh-150percent ml-119 mt-sm-17">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis.</p><div class="fs-14 text-gray review reviews-border ml-119 pb-35 mt-sm-17 pb-sm-41">23 Мая, 2019г.</div></div><div class="d-none"><div class="d-flex mt-50 mt-sm-47">  <img class="mr-18" src="./images/valeria-antonova.png" alt="photo by Valeria Antonova" height="101" width="101"><div class="review"> <div class="fw-500 fs-18 mt-10 mt-sm-5">Чулпан Хаматова</div><div class="fs-14 mt-10 mt-sm-8">Актриса</div></div></div><div class="d-flex ml-119 d-sm-block mt-minus28 mt-sm-minus24">   <img class="mr-7 ml-sm-102" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-50" src="./images/Vectorstar.svg" alt="star"><div class="mt-sm-24">   <img class="mr-5" src="./images/check-mark.png" alt="check mark"><span class="fs-14 text-gray">Супер! Я бы заказала съемку снова!</span></div></div><p class="review mt-21 lh-150percent ml-119 mt-sm-17">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium.</p><div class="fs-14 text-gray review reviews-border ml-119 pb-35 mt-sm-41 pb-sm-41">30 мая, 2019г.</div></div><div class="w-206 m-0-auto mt-39 mt-sm-34 pt-6"> <img class="d-sm-none" id="arrow-to-down-left-reviews" src="images/arrow-to-down.png" alt="arrow to down"><a class="fs-17 fw-500 mx-10" id="show-all-reviews" href="#reviews">Показать Все (<span id="number-of-reviews"> </span><span>)</span></a><img class="d-sm-none" id="arrow-to-down-right-reviews" src="images/arrow-to-down.png" alt="arrow to down"><a class="d-none fs-17 fw-500 text-center" id="hide-all-reviews" href="#reviews">Скрыть</a><img class="d-none d-sm-inline" id="arrow-to-right-reviews" src="images/arrow-to-right.png" alt="arrow to right" width="6" height="11"></div></section><section class="d-flex justify-content-between pt-97 pb-41" id="social"><img class="ml-66 ml-md-0" src="./images/helyfly.png" alt="Логотип"><div class="d-flex align-items-center mt-minus18 mt-sm-minus5 mr-63">  <img class="mr-30" src="./images/vk.svg" alt="vk" width="25" height="15"><img class="mr-30" src="./images/facebook.svg" alt="facebook"><img class="mr-30" src="./images/instagram.svg" alt="instagram"><span class="fs-15 mr-7 d-md-none">RU</span><img class="d-md-none" src="images/arrow-to-down.png" alt="arrow to down"></div></section></main><footer class="footer"> <div class="d-flex w-1137 m-0-auto d-md-block"> <div class="mt-7 ml-66 d-md-flex justify-content-between ml-md-0"><div class="d-md-flex"> <img class="mr-20 mr-sm-10" src="./images/mastercard.png" alt="mastercard"><img class="mr-md-13" src="./images/visa.png" alt="visa"><img class="d-none d-md-flex" src="./images/paypal.jpg" alt="paypal"></div><div class="d-flex align-items-md-center"> <span class="fs-15 mr-7 d-none d-md-flex">RU</span><img class="d-none d-md-flex" src="images/arrow-to-down.png" alt="arrow to down" width="11" height="6"></div></div><div class="d-flex f-direction-column align-items-center ml-276 ml-md-0">  <div class="fs-14 text-gray mt-md-23">Тех. поддержка: 8(800)700-00-00</div><div class="fs-14 text-gray mt-7 mt-sm-9">© 2018 HELYFLY. All Rights Reserved.</div></div></div></footer><script src="./scripts/popup.js"></script><script src="./scripts/read-more.js"></script><script src="./scripts/more-info-about-photographer.js"></script><script src="./scripts/show-all-photos.js"></script><script src="./scripts/map.js"> </script><script src="./scripts/slider.js"></script><script src="./scripts/show-all-reviews.js"></script><script src="./scripts/scroll-photo.js"></script><script src="./scripts/video.js"> </script></body></html>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тестовое задание Рината Габидуллина</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;amp;apikey=a218b144-dcd9-41c7-af4d-5ff0bdfeadc7"></script>
+  </head>
+  <body>
+    <header class="header"><img src="./images/helyfly.png" alt="Логотип" width="128" height="23"><span class="text-gray ml-36 fs-14 d-sm-none">Телефон:</span><span class="fs-14 d-sm-none">8(800)-123-12-12</span><a class="fs-14 mr-40 mb-minus4 d-none d-sm-block" href="#">Москва</a><img class="d-none d-sm-block" src="./images/human-profile.svg" alt="human profile" width="20" height="20"></header>
+    <main>
+      <section class="banner" id="banner"> 
+        <h1> <span class="text-light fs-40">Эксклюзивная</span><span class="text-warning fs-40"> фотосессия</span><span class="text-light fs-40"> при полете на вертолете</span></h1>
+        <div class="price d-flex f-direction-row justify-content-center align-items-center">
+          <div class="mr-14"> 
+            <div class="fs-20">Стоимость</div>
+            <div class="fs-35 fw-800">1500&#8381;</div>
+          </div>
+          <div class="ellipse"><span class="fs-35">%</span></div>
+        </div>
+        <svg width="224" height="15"> 
+          <path d="m 109,0 L 119,10 129,0" fill="#fc9b09" stroke="#fc9b09"></path>
+        </svg><a class="button" href="#">Забронировать место</a>
+      </section>
+      <div class="popup__bg"> 
+        <form class="popup mt-21 mt-lg-100 mt-md-160" action="#"><img class="close-popup" src="./images/close.png" alt="to close">
+          <h2 class="popup__title">Бронирование</h2>
+          <div class="label__text">Дата<span class="text-red">*</span></div>
+          <label>
+            <input type="date" name="calendar" required>
+          </label>
+          <div class="label__text">Email<span class="text-red">*</span></div>
+          <label>
+            <input type="email" name="name" placeholder="Электронная почта" required>
+          </label>
+          <div class="label__text">Имя<span class="text-red">*</span></div>
+          <label>
+            <input type="text" name="name" required>
+          </label>
+          <div class="label__text">Фамилия<span class="text-red">*</span></div>
+          <label>
+            <input type="text" name="name" required>
+          </label>
+          <div class="label__text">Телефон<span class="text-red">*</span></div>
+          <label>
+            <input type="tel" name="phone" pattern="+7s?[(]{0,1}9[0-9]{2}[)]{0,1}s?d{3}[-]{0,1}d{2}[-]{0,1}d{2}" minlength="16" maxlength="16" required>
+          </label>
+          <div class="label__text">Данные карты<span class="text-red">*</span></div>
+          <label>
+            <input type="number" name="name" min="1000000000000000" max="9999999999999999" placeholder="Номер карты" required>
+          </label>
+          <div class="d-flex"> 
+            <label>
+              <input type="number" name="name" placeholder="Срок действия" required>
+            </label>
+            <label>
+              <input type="number" name="name" min="100" max="999" placeholder="CVV" required>
+            </label>
+          </div>
+          <label class="custom-checkbox" for="checkbox"></label>
+          <input class="hidden-checkbox" id="checkbox" type="checkbox" required>
+          <div class="d-flex mt-18">
+            <div class="checkbox mr-10"> 
+              <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 24 24">
+                <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
+              </svg>
+            </div>
+            <div class="w-91percent">Я согласен с пользовательским соглашением и публичной офертой</div>
+          </div>
+          <button class="m-0-auto mt-29">Забронировать</button>
+        </form>
+      </div>
+      <section class="fw-500 pt-70 pt-sm-36" id="photosession">
+        <div class="d-flex justify-content-between f-direction-md-column"> 
+          <div class="mr-40 mr-md-0 text-md-center"> 
+            <div class="fs-40 mt-3 lh-122percent">Фотосессия </div>
+            <div class="fs-40 lh-122percent">в вертолете</div>
+          </div><img class="position-button-play" src="./images/button-video-play.png" alt="button video play" width="16" height="23"><img class="mt-md-13 m-md-0-auto" src="images/kiss-in-the-air.png" alt="kiss in the air" width="554" height="374">
+          <div class="d-none mt-md-13 m-md-0-auto position-relative" id="video-control"><img class="close-video" src="./images/close.png" alt="to close">
+            <iframe id="my-iframe" loading="lazy" width="554" height="374" src="https://www.youtube.com/embed/xePJ6jlSJMI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="fs-18 fw-normal lh-145percent w-549 mt-minus260 mt-md-30">Полет на вертолете это прекрасная возможность получить новые ощущения! А наш замечательный фотограф запечатлит лучшие моменты<span class="d-none d-sm-inline">!</span></div>
+        <div class="d-flex align-items-center mt-18 mt-sm-27"> <img class="mr-10 d-sm-none" src="./images/watch.svg" alt="watch">
+          <div class="watch d-none d-sm-block mr-sm-13 ml-sm-2"> <img class="watch-1" src="./images/watch-1.png" alt="">
+            <div class="watch-2"> <img src="./images/watch-2.png" alt=""></div>
+            <div class="watch-3"> <img src="./images/watch-3.png" alt=""></div>
+            <div class="watch-4"> <img src="./images/watch-4.png" alt=""></div>
+            <div class="watch-5"> <img src="./images/watch-5.png" alt=""></div>
+          </div><span class="fs-14">3 часа съемки</span>
+        </div>
+        <div class="align-items-center mt-sm-3 d-none d-sm-flex"> <img class="mr-sm-13" src="./images/speech-bubble.svg" alt="speech bubble"><span class="fs-14 fw-500">Русский</span></div>
+        <div class="align-items-center mt-sm-13 d-none d-sm-flex"> <img class="mr-sm-13" src="./images/payment.png" alt="payment"><span class="fs-14 fw-500">от 850$</span></div>
+        <div class="align-items-center mt-16 d-none d-sm-flex"> <img class="mr-10" src="./images/map-pin-marked.svg" alt="point on the map"><span class="fs-14 fw-500">Дубаи</span></div>
+        <div class="d-flex align-items-center mt-18"><img class="mr-7" src="./images/camera.svg" alt="camera"><span class="fs-14 fw-500">Более 50 фотографий</span></div>
+        <div class="d-flex align-items-center mt-16 d-sm-none"> <img class="mr-10" src="./images/map-pin-marked.svg" alt="point on the map"><span class="fs-14">Москва</span></div>
+        <div class="d-flex align-items-center mt-16 d-sm-none"> <img class="mr-10" src="./images/speech-bubble.svg" alt="speech bubble"><span class="fs-14">Готовы ответить на любые вопросы</span></div>
+        <div class="review-border d-flex align-items-center mt-32 mt-sm-27"> <img class="mr-10 mr-sm-13 ml-sm-2" src="./images/cup.png" alt="cup">
+          <div class="d-flex f-direction-md-column"> 
+            <div class="fs-18 fw-600 mr-8">Более <span class="d-sm-none">50</span><span class="d-none d-sm-inline">150</span><span> отзывов с оценкой</span></div>
+            <div class="mt-sm-9"> <img class="mr-7" src="images/Vectorstar.svg" alt="star"><img class="mr-7" src="images/Vectorstar.svg" alt="star"><img class="mr-7" src="images/Vectorstar.svg" alt="star"><img class="mr-7" src="images/Vectorstar.svg" alt="star"><img src="images/Vectorstar.svg" alt="star"></div>
+          </div>
+        </div>
+      </section>
+      <section id="package-photos">
+        <h3 class="fs-20 fw-500 mt-30 mt-sm-60 text-sm-center ml-sm-2 w-sm-287">Фотографии пакета<span class="d-sm-none">:</span></h3>
+        <div class="mt-37 mt-sm-30 section">   <img class="section_item" src="images/girl-in-the-helicopter-cockpit.png" alt="girl in the helicopter cockpit"><img class="ml-11 section_item" src="images/helicopter-view.png" width="276" height="185" alt="helicopter view"><img class="ml-11 section_item" src="images/kiss-in-the-air.png" width="276" height="185" alt="kiss in the air"><img class="ml-11 section_item" src="images/girl-next-to-the-helicopter.png" alt="girl next to the helicopter"><img class="mt-7 ml-sm-11 mt-sm-0 section_item" src="images/kiss-in-the-air.png" width="276" height="185" alt="kiss in the air"><img class="mt-7 ml-11 mt-sm-0 section_item" src="images/girl-next-to-the-helicopter.png" alt="girl next to the helicopter"><img class="mt-7 ml-11 mt-sm-0 section_item" src="images/helicopter-view.png" width="276" height="185" alt="helicopter view"><img class="mt-7 ml-11 mt-sm-0 section_item" src="images/kiss-in-the-air.png" width="276" height="185" alt="kiss in the air"><img class="d-none mt-7 ml-sm-11 mt-sm-0 section_item" src="images/helicopter-view.png" width="276" height="185" alt="helicopter view"><img class="d-none mt-7 ml-11 mt-sm-0 section_item" src="images/girl-next-to-the-helicopter.png" alt="girl next to the helicopter"><img class="d-none mt-7 ml-11 mt-sm-0 section_item" src="images/kiss-in-the-air.png" width="276" height="185" alt="kiss in the air"><img class="d-none mt-7 ml-11 mt-sm-0 section_item" src="images/girl-in-the-helicopter-cockpit.png" alt="girl in the helicopter cockpit"><img class="d-none mt-7 ml-sm-11 mt-sm-0 section_item" src="images/helicopter-view.png" width="276" height="185" alt="helicopter view"><img class="d-none mt-7 ml-11 mt-sm-0 section_item" src="images/kiss-in-the-air.png" width="276" height="185" alt="kiss in the air"></div>
+        <div class="m-0-auto mt-41 w-220 d-sm-none"> <img id="arrow-to-down-left" src="images/arrow-to-down.png" alt="arrow to down"><a class="fs-17 fw-500 mx-10" id="show-all-photos" href="#package-photos">Показать все фото</a><img id="arrow-to-down-right" src="images/arrow-to-down.png" alt="arrow to down"><a class="d-none fs-17 fw-500 text-center" id="hide-all-photos" href="#package-photos">Скрыть</a></div>
+        <hr class="mt-26 d-sm-none">
+      </section>
+      <section id="about-organizer">
+        <div class="d-flex justify-content-between f-direction-md-column">  
+          <div class="mt-8 order-md-2 mt-sm-3"> 
+            <h3 class="fs-18 fw-500">Об организаторе:</h3>
+            <div class="lh-150percent mt-minus4 pr-186 fw-normal">Всем привет! Я фотограф Мария! И по мимо фотосъемки я так же являюсь членом группы экспертов туристической отрасли, которые хорошо разбираются в маркетинге, операциях и услугах обслуживания клиентов, специализирующихся на совместном использовании и частных турах. </div>
+            <div class="lh-150percent mt-26 pr-186">Сначала мы (я и моя команда) изучаем интересы клиентов, а затем придумываем подходящее решение, которое соответствует бюджету и планам клиента. Мы никогда не зависим от субпоставщиков</div>
+            <div class="lh-150percent pr-186">и не свяжемся<span>…</span>
+              <div class="d-none lh-150percent" id="add-about-organizer">lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend.</div>
+            </div><a class="fw-500 mr-10 mr-sm-5" id="read-more-about-organizer" href="#about-organizer">Читать еще </a><img class="mt-16 mt-sm-30" src="images/arrow-to-down.png" alt="arrow to down"><a class="d-none fw-500 mr-10 mr-sm-5" id="hide-more-about-organizer" href="#about-organizer">Скрыть</a>
+            <h3 class="fs-18 fw-500 mt-39 mt-sm-29">Что я предоставлю:</h3>
+            <div class="lh-150percent mt-minus4 pr-246">Встречу вас на машине после длительного перелёта. Качественный подбор места и локации для вашей съемки.</div>
+            <div class="lh-150percent pr-186">При необходимости всегда возможно прерваться на обед/ужин.</div>
+            <div class="lh-150percent pr-186">Более 50 фотографий на выходе с обработкой и замечательные впечатления о Дубае !
+              <div class="d-none lh-150percent pr-186" id="add-what-i-will-provide">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</div>
+            </div><a class="fw-500 mr-10 mr-sm-5" id="read-more-what-i-will-provide" href="#about-organizer">Читать еще </a><img class="mt-18 mt-sm-29" src="images/arrow-to-down.png" alt="arrow to down"><a class="d-none fw-500 mr-10 mr-sm-5" id="hide-more-what-i-will-provide" href="#about-organizer">Скрыть</a>
+          </div>
+          <div class="d-flex mrminus4 order-md-1"> 
+            <div class="d-flex f-direction-column align-items-center w-220 ml-sm-28"> <img class="mt-58" src="images/photographer.png" alt="photographer Marina Ivanova" width="139">
+              <div class="fs-18 fw-500 mt-23">Марина Иванова</div>
+              <div class="fs-14 mt-7">Фотограф</div>
+              <div class="d-none fs-14 mt-7" id="add-about-photographer">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</div><a class="fs-14 lh-150percent fw-500 mt-12 text-center" id="show-more-info-about-photographer" href="#about-organizer">Показать больше информации о фотографе</a><a class="d-none fs-14 lh-150percent fw-500 mt-12 text-center" id="hide-more-info-about-photographer" href="#about-organizer">Скрыть</a>
+            </div><img class="mt-45 mr-115 ml-auto mr-sm-0" src="images/heart.svg" alt="orange heart" width="31" height="27">
+          </div>
+        </div>
+        <hr class="mt-53 d-sm-none">
+      </section>
+      <section id="available-shooting">
+        <h3 class="fw-500 fs-20 lh-145percent lh-sm-129percent w-288 mt-45 mt-sm-39 text-sm-center mlsm-minus5"><span class="w-sm-287 mr-sm-17">Доступная съемка </span><br class="d-none d-sm-flex"><span class="ml-sm-minus10">в ближай</span><span class="d-sm-none">ш</span><span class="d-none d-sm-inline">щ</span><span>ее время</span><span class="d-sm-none">:</span></h3>
+        <div class="container mt-26 mb-82 mt-sm-36"> 
+          <div class="d-flex align-items-center justify-content-sm-center"> 
+            <div class="fw-normal fs-18 mr-18 mt-sm-minus5">Пятница, 14 сентября</div><a href="#"> <img class="d-sm-none" src="./images/calendar.svg" alt="calendar"></a>
+          </div>
+          <div class="line mt-14 mt-sm-17"> </div>
+          <div class="d-flex justify-content-between align-items-center mt-21 f-direction-sm-column mt-sm-29"> 
+            <div>
+              <div class="fw-normal fs-18">15:00 - 18:00</div>
+              <div class="fw-600 fs-18 mt-10 d-sm-none">1500₽</div>
+              <div class="fw-600 fs-18 mt-10 d-none d-sm-block">850$</div>
+              <div class="fw-normal fs-18 mt-10">Осталось — 1 место</div>
+            </div><a class="select fw-500 fs-18 mt-sm-24" href="#">Выбрать  </a>
+          </div>
+          <div class="line mt-21 mt-sm-29"> </div>
+          <div class="d-flex justify-content-between align-items-center mt-21 mt-sm-29 f-direction-sm-column"> 
+            <div> 
+              <div class="fw-normal fs-18">19:00 - 22:00</div>
+              <div class="fw-600 fs-18 mt-10 d-sm-none">1500₽</div>
+              <div class="fw-600 fs-18 mt-10 d-none d-sm-block">850$</div>
+              <div class="fw-normal fs-18 mt-10">Осталось — 1 место</div>
+            </div><a class="select fw-500 fs-18 mt-sm-24" href="#">Выбрать</a>
+          </div>
+          <div class="line mt-sm-29 d-none d-sm-block"> </div>
+          <div class="d-flex align-items-center mt-66 mt-sm-29"> <img class="mr-10 mr-sm-13" src="./images/cup.png" alt="cup">
+            <div class="d-flex f-direction-md-column"> 
+              <div class="fs-18 fw-600 mr-8 d-sm-none">Более 50 отзывов с оценкой</div>
+              <div class="fs-13 d-none d-sm-block ml-sm-2 mt-sm-3">Более 150 отзывов с оценкой</div>
+              <div class="mt-sm-9"> <img class="mr-7" src="images/Vectorstar.svg" alt="star"><img class="mr-7" src="images/Vectorstar.svg" alt="star"><img class="mr-7" src="images/Vectorstar.svg" alt="star"><img class="mr-7" src="images/Vectorstar.svg" alt="star"><img src="images/Vectorstar.svg" alt="star"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="map"> 
+        <div class="shooting-information slider">
+          <div class="d-flex justify-content-between align-items-sm-center mt-sm-20">    <a class="previous" onclick="previousSlide()"><img class="mt-sm-8 d-none d-sm-block" src="./images/arrow-to-left.png" alt="arrow to left" width="19" height="10"></a><a class="next" onclick="nextSlide()"><img class="mt-sm-8 d-none d-sm-block" src="./images/arrow-to-right.png" alt="arrow to right" width="19" height="10"></a></div>
+          <div class="d-flex d-sm-block item text-sm-center mt-sm-minus47">   <img class="mr-18 mr-sm-0" src="./images/paragraph-1.svg" alt="paragraph 1" width="66" height="66">
+            <div> 
+              <div class="fs-18 fw-500 lh-150percent mt-sm-17">Где встречаемся?</div>
+              <div class="fs-18 fw-normal lh-145percent mt-sm-5 ml-sm-4">Москва</div>
+            </div>
+          </div>
+          <div class="d-flex mt-34 d-sm-none item text-sm-center mt-sm-minus47">   <img class="mr-18 mr-sm-0" src="./images/paragraph-2.svg" alt="paragraph 2" width="61" height="61">
+            <div>  
+              <div class="fs-18 fw-500 lh-150percent mt-sm-17">Время съемки</div>
+              <div class="fs-18 fw-normal lh-145percent mt-sm-5 ml-sm-4">3 часа</div>
+            </div>
+          </div>
+          <div class="d-flex mt-34 d-sm-none item text-sm-center mt-sm-minus47">  <img class="mr-18 mr-sm-0" src="./images/paragraph-3.svg" alt="paragraph 3">
+            <div> 
+              <div class="fs-18 fw-500 lh-150percent mt-sm-17">Мест осталось:</div>
+              <div class="fs-18 fw-normal lh-145percent mt-sm-5 ml-sm-4">2 места</div>
+            </div>
+          </div>
+          <div class="d-none d-sm-flex justify-content-sm-center mt-sm-20"> 
+            <div class="radio-button"></div>
+            <div class="radio-button mx-10"> </div>
+            <div class="radio-button"> </div>
+          </div>
+          <div class="d-flex mt-41"><img class="mr-18 ml-sm-4" src="./images/photographer.png" alt="photographer Marina Ivanova" width="67" height="67">
+            <div class="mt-sm-minus5"> 
+              <div class="fs-18 fw-500 lh-150percent">Мария Иванова</div>
+              <div class="fs-18 fw-normal lh-145percent mt-sm-3">Фотограф</div>
+              <div class="d-none fs-14 mt-7" id="add-about-photographer-map">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</div>
+              <div class="fs-14 fw-500 lh-150percent mt-sm-3"> <a id="show-more-info-about-photographer-map" href="#show-more-info-about-photographer-map">Показать больше информации<span class="d-none d-sm-block">о фотографе</span></a><a class="d-none fs-14 lh-150percent fw-500 mt-12 text-center" id="hide-more-info-about-photographer-map" href="#map">Скрыть </a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="review" id="reviews">
+        <h3 class="fw-500 fs-20 text-sm-center mt-722">Отзывы<span class="d-sm-none">:</span></h3>
+        <div class="d-flex mt-50 mt-sm-47">  <img class="mr-18" src="./images/valeria-antonova.png" alt="photo by Valeria Antonova" height="101" width="101">
+          <div class="review"> 
+            <div class="fw-500 fs-18 mt-10 mt-sm-5">Валерия Антонова</div>
+            <div class="fs-14 mt-10 mt-sm-8">Арт-директор</div>
+          </div>
+        </div>
+        <div class="d-flex ml-119 d-sm-block mt-minus28 mt-sm-minus24">   <img class="mr-7 ml-sm-102" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-50" src="./images/Vectorstar.svg" alt="star">
+          <div class="mt-sm-24">   <img class="mr-5" src="./images/check-mark.png" alt="check mark"><span class="fs-14 text-gray">Супер! Я бы заказала съемку снова!</span></div>
+        </div>
+        <p class="review mt-21 lh-150percent ml-119 mt-sm-17">Хотим выразить огромную благодарность вашей компании! Получили море ощущений, все прошло просто замечательно. Фотки получились великолепные, отдельное спасибо фотографу!</p>
+        <div class="fs-14 text-gray review reviews-border ml-119 pb-35 mt-sm-41 pb-sm-41">27 Апреля, 2019г.</div>
+        <div class="d-flex mt-29"> <img class="mr-18" src="./images/vitaly-petrov.png" alt="photo by Vitaly Petrov" height="101" width="101">
+          <div class="review">  
+            <div class="fw-500 fs-18 mt-10 mt-sm-5">Виталий Петров</div>
+            <div class="fs-14 mt-10 mt-sm-8">Фотограф</div>
+          </div>
+        </div>
+        <div class="d-flex ml-119 d-sm-block mt-minus28 mt-sm-minus24">  <img class="mr-7 ml-sm-102" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-50" src="./images/Vectorstar.svg" alt="star">
+          <div class="mt-sm-30"> <img class="mr-5" src="./images/check-mark.png" alt="check mark"><span class="fs-14 text-gray">Супер! Я бы заказал съемку снова!</span></div>
+        </div>
+        <p class="review mt-21 lh-150percent ml-119 mt-sm-17">Восторг! :) Очень понравилось :) Захватили последний теплый, солнечный октябрьский день :) Впечатлило всё: сам вертолет, взлет, полёт, приземление.<br><span> Организация полёта отличная. Спасибо!</span></p>
+        <div class="fs-14 text-gray review reviews-border ml-119 pb-35 mt-sm-17 pb-sm-41">19 Апреля, 2019г.</div>
+        <div class="d-sm-none"> 
+          <div class="d-flex mt-29">  <img class="mr-18" src="./images/vitaly-petrov.png" alt="photo by Vitaly Petrov" height="101" width="101">
+            <div class="review">  
+              <div class="fw-500 fs-18 mt-10">Джим Керри</div>
+            </div>
+          </div>
+          <div class="d-flex ml-119 mt-minus48">  <img class="mr-7 ml-sm-119" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-50" src="./images/Vectorstar.svg" alt="star">
+            <div class="mt-sm-30"> <img class="mr-5" src="./images/check-mark.png" alt="check mark"><span class="fs-14 text-gray">Супер! Я бы заказал съемку снова!</span></div>
+          </div>
+          <p class="review mt-21 lh-150percent ml-119">Круто-круто-круто!!! Отмечали мой ДэРэ. Отлично провели время!!! Кстати закуски были вкусными и сытными))Мы с собой ничего не брали. Сами много фоткались,поэтому воспоминания обалденные!!!)) А еще нам всем напечатали по сертификату воздухоплавателя, правда некоторые ленятся за ним съездить))) Но все равно приятно. Короче, Презентстар – проверено. Оценка: пять!</p>
+          <div class="fs-14 text-gray review reviews-border ml-119 pb-23">11 Апреля, 2019г.</div>
+        </div>
+        <div class="d-none">
+          <div class="d-flex mt-50 mt-sm-47">  <img class="mr-18" src="./images/valeria-antonova.png" alt="photo by Valeria Antonova" height="101" width="101">
+            <div class="review"> 
+              <div class="fw-500 fs-18 mt-10 mt-sm-5">Кира Найтли</div>
+              <div class="fs-14 mt-10 mt-sm-8">Актриса</div>
+            </div>
+          </div>
+          <div class="d-flex ml-119 d-sm-block mt-minus28 mt-sm-minus24">   <img class="mr-7 ml-sm-102" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-50" src="./images/Vectorstar.svg" alt="star">
+            <div class="mt-sm-24">   <img class="mr-5" src="./images/check-mark.png" alt="check mark"><span class="fs-14 text-gray">Супер! Я бы заказала съемку снова!</span></div>
+          </div>
+          <p class="review mt-21 lh-150percent ml-119 mt-sm-17">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+          <div class="fs-14 text-gray review reviews-border ml-119 pb-35 mt-sm-41 pb-sm-41">16 мая, 2019г.</div>
+        </div>
+        <div class="d-none">
+          <div class="d-flex mt-29"> <img class="mr-18" src="./images/vitaly-petrov.png" alt="photo by Vitaly Petrov" height="101" width="101">
+            <div class="review">  
+              <div class="fw-500 fs-18 mt-10 mt-sm-5">Илон Маск</div>
+              <div class="fs-14 mt-10 mt-sm-8">Бизнесмен</div>
+            </div>
+          </div>
+          <div class="d-flex ml-119 d-sm-block mt-minus28 mt-sm-minus24">  <img class="mr-7 ml-sm-102" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-50" src="./images/Vectorstar.svg" alt="star">
+            <div class="mt-sm-30"> <img class="mr-5" src="./images/check-mark.png" alt="check mark"><span class="fs-14 text-gray">Супер! Я бы заказал съемку снова!</span></div>
+          </div>
+          <p class="review mt-21 lh-150percent ml-119 mt-sm-17">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis.</p>
+          <div class="fs-14 text-gray review reviews-border ml-119 pb-35 mt-sm-17 pb-sm-41">23 Мая, 2019г.</div>
+        </div>
+        <div class="d-none">
+          <div class="d-flex mt-50 mt-sm-47">  <img class="mr-18" src="./images/valeria-antonova.png" alt="photo by Valeria Antonova" height="101" width="101">
+            <div class="review"> 
+              <div class="fw-500 fs-18 mt-10 mt-sm-5">Чулпан Хаматова</div>
+              <div class="fs-14 mt-10 mt-sm-8">Актриса</div>
+            </div>
+          </div>
+          <div class="d-flex ml-119 d-sm-block mt-minus28 mt-sm-minus24">   <img class="mr-7 ml-sm-102" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-7" src="./images/Vectorstar.svg" alt="star"><img class="mr-50" src="./images/Vectorstar.svg" alt="star">
+            <div class="mt-sm-24">   <img class="mr-5" src="./images/check-mark.png" alt="check mark"><span class="fs-14 text-gray">Супер! Я бы заказала съемку снова!</span></div>
+          </div>
+          <p class="review mt-21 lh-150percent ml-119 mt-sm-17">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium.</p>
+          <div class="fs-14 text-gray review reviews-border ml-119 pb-35 mt-sm-41 pb-sm-41">30 мая, 2019г.</div>
+        </div>
+        <div class="w-206 m-0-auto mt-39 mt-sm-34 pt-6"> <img class="d-sm-none" id="arrow-to-down-left-reviews" src="images/arrow-to-down.png" alt="arrow to down"><a class="fs-17 fw-500 mx-10" id="show-all-reviews" href="#reviews">Показать Все (<span id="number-of-reviews"> </span><span>)</span></a><img class="d-sm-none" id="arrow-to-down-right-reviews" src="images/arrow-to-down.png" alt="arrow to down"><a class="d-none fs-17 fw-500 text-center" id="hide-all-reviews" href="#reviews">Скрыть</a><img class="d-none d-sm-inline" id="arrow-to-right-reviews" src="images/arrow-to-right.png" alt="arrow to right" width="6" height="11"></div>
+      </section>
+      <section class="d-flex justify-content-between pt-97 pb-41" id="social"><img class="ml-66 ml-md-0" src="./images/helyfly.png" alt="Логотип">
+        <div class="d-flex align-items-center mt-minus18 mt-sm-minus5 mr-63"><a href="#">   <img class="mr-30" src="./images/vk.svg" alt="vk" width="25" height="15"></a><a href="#"> <img class="mr-30" src="./images/facebook.svg" alt="facebook"></a><a href="#"> <img class="mr-30" src="./images/instagram.svg" alt="instagram"></a><span class="fs-15 mr-7 d-md-none">RU</span><a href="#"> <img class="d-md-none" src="images/arrow-to-down.png" alt="arrow to down"></a></div>
+      </section>
+    </main>
+    <footer class="footer"> 
+      <div class="d-flex w-1137 m-0-auto d-md-block"> 
+        <div class="mt-7 ml-66 d-md-flex justify-content-between ml-md-0">
+          <div class="d-md-flex"> <img class="mr-20 mr-sm-10" src="./images/mastercard.png" alt="mastercard"><img class="mr-md-13" src="./images/visa.png" alt="visa"><img class="d-none d-md-flex" src="./images/paypal.jpg" alt="paypal"></div>
+          <div class="d-flex align-items-md-center"> <span class="fs-15 mr-7 d-none d-md-flex">RU</span><img class="d-none d-md-flex" src="images/arrow-to-down.png" alt="arrow to down" width="11" height="6"></div>
+        </div>
+        <div class="d-flex f-direction-column align-items-center ml-276 ml-md-0">  
+          <div class="fs-14 text-gray mt-md-23">Тех. поддержка: 8(800)700-00-00</div>
+          <div class="fs-14 text-gray mt-7 mt-sm-9">© 2018 HELYFLY. All Rights Reserved.</div>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/popup.js"></script>
+    <script src="./scripts/read-more.js"></script>
+    <script src="./scripts/more-info-about-photographer.js"></script>
+    <script src="./scripts/show-all-photos.js"></script>
+    <script src="./scripts/map.js"> </script>
+    <script src="./scripts/slider.js"></script>
+    <script src="./scripts/show-all-reviews.js"></script>
+    <script src="./scripts/scroll-photo.js"></script>
+    <script src="./scripts/video.js"> </script>
+  </body>
+</html>

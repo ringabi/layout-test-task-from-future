@@ -40,6 +40,10 @@ article {
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  color: #37373f;
+}
+
 a {
   text-decoration: none;
   color: #5286ec;
@@ -51,10 +55,6 @@ a {
 
 .text-gray {
   color: #b3b3b3;
-}
-
-.text-dark {
-  color: #37373f;
 }
 
 .text-warning {
@@ -614,6 +614,9 @@ header,
 }
 
 .select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
   height: 50px;
   width: 129px;
@@ -621,17 +624,12 @@ header,
   border: 2px solid #fc9b09;
   border-radius: 3px;
   color: #fc9b09;
-}
-
-.map {
-  background: no-repeat url("./images/map.png");
-  max-width: 98.85vw;
-  height: 26.57vw;
-  padding: 1.041667vw 0 1.041667vw 20.31%;
+  position: relative;
+  z-index: 1;
 }
 
 #map {
-  width: 98.85vw;
+  width: 99.5vw;
   height: 509px;
   position: absolute;
   margin-top: -483px;
@@ -882,6 +880,7 @@ input[type=date] {
   }
 
   #map {
+    width: 98.85vw;
     margin-top: -439px;
   }
 
@@ -909,10 +908,6 @@ input[type=date] {
 
   .container {
     width: 60vw;
-  }
-
-  .map {
-    background: no-repeat left -200px top 0 url("./images/map.png");
   }
 
   #map img {
@@ -971,13 +966,8 @@ input[type=date] {
   }
 
   #package-photos .mt-37 img {
-    width: calc((100vw - 40px - 33px) / 4);
+    width: calc((calc(100vw - 40px) - 33px) / 4);
     height: auto;
-  }
-
-  .map {
-    height: 313px;
-    background: no-repeat left -260px top 0 url("./images/map.png");
   }
 
   .shooting-information {
@@ -996,7 +986,7 @@ input[type=date] {
   #photosession div:nth-child(1) > img:nth-of-type(2),
 #video-control iframe {
     height: 33.71vw;
-    width: 50vw;
+    width: calc(100vw / 2);
   }
 
   .position-button-play {
@@ -1013,11 +1003,6 @@ input[type=date] {
 
   #about-organizer .mr-115 {
     margin-right: 10px;
-  }
-
-  .map {
-    background: no-repeat left -460px top 0 url("./images/map.png");
-    padding: 1.041667vw 0 1.041667vw 9.31%;
   }
 
   #map {
@@ -1070,11 +1055,6 @@ input[type=date] {
 
   #available-shooting .mb-82 {
     margin-bottom: 45px;
-  }
-
-  .map {
-    background: no-repeat left -610px top 0 url("./images/map.png");
-    padding: 1.041667vw 0 1.041667vw 9.31%;
   }
 
   #map {
@@ -1143,11 +1123,6 @@ input[type=date] {
   .review-border {
     width: calc(100vw - 40px);
     padding: 13px 0 9px 0;
-  }
-
-  .map {
-    background: no-repeat left -737px top 0 url("./images/map.png");
-    padding: 1.041667vw 0 1.041667vw 3.31%;
   }
 
   .shooting-information {
@@ -1344,14 +1319,6 @@ input[type=date] {
   .line {
     margin-right: -10px;
     margin-left: -10px;
-  }
-
-  .map {
-    height: 417px;
-    background: no-repeat url("./images/map.png");
-    background-position: left -940px top 0;
-    background-origin: padding-box;
-    padding: 1.041667vw 7.19vw 1.041667vw 7.19vw;
   }
 
   #map .shooting-information div:nth-of-type(2) .fs-18:nth-of-type(2),
@@ -1801,3 +1768,5 @@ input[type=date] {
     padding-bottom: 41px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */

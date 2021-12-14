@@ -55,6 +55,10 @@ article {
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  color: $dark;
+}
+
 a {
   text-decoration: none;
   color: $info;
@@ -66,10 +70,6 @@ a {
 
 .text-gray {
   color: $gray;
-}
-
-.text-dark {
-  color: $dark;
 }
 
 .text-warning {

@@ -144,6 +144,9 @@ header,
 }
 
 .select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
   height: 50px;
   width: 129px;
@@ -151,17 +154,12 @@ header,
   border: 2px solid $warning;
   border-radius: 3px;
   color: $warning;
-}
-
-.map {
-  background: no-repeat url("./images/map.png");
-  max-width: 98.85vw;
-  height: 26.57vw;
-  padding: 1.041667vw 0 1.041667vw 20.31%;
+  position: relative;
+  z-index: 1;
 }
 
 #map {
-  width: 98.85vw;
+  width: 99.5vw;
   height: 509px;
   position: absolute;
   margin-top: -483px;
