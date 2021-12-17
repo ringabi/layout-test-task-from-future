@@ -9,38 +9,38 @@ $red: red;
 
 @font-face {
   font-weight: 900;
-  font-family: 'Montserrat';
-  src: url('assets/fonts/Montserrat-Black.ttf');
+  font-family: Montserrat;
+  src: url("assets/fonts/Montserrat-Black.ttf");
 }
 
 @font-face {
   font-weight: 800;
-  font-family: 'Montserrat';
-  src: url('assets/fonts/Montserrat-ExtraBold.ttf');
+  font-family: Montserrat;
+  src: url("assets/fonts/Montserrat-ExtraBold.ttf");
 }
 
 @font-face {
   font-weight: 700;
-  font-family: 'Montserrat';
-  src: url('assets/fonts/Montserrat-Bold.ttf');
+  font-family: Montserrat;
+  src: url("assets/fonts/Montserrat-Bold.ttf");
 }
 
 @font-face {
   font-weight: 600;
-  font-family: 'Montserrat';
-  src: url('assets/fonts/Montserrat-SemiBold.ttf');
+  font-family: Montserrat;
+  src: url("assets/fonts/Montserrat-SemiBold.ttf");
 }
 
 @font-face {
   font-weight: 500;
-  font-family: 'Montserrat';
-  src: url('assets/fonts/Montserrat-Medium.ttf');
+  font-family: Montserrat;
+  src: url("assets/fonts/Montserrat-Medium.ttf");
 }
 
 @font-face {
   font-weight: 400;
-  font-family: 'Montserrat';
-  src: url('assets/fonts/Montserrat-Regular.ttf');
+  font-family: Montserrat;
+  src: url("assets/fonts/Montserrat-Regular.ttf");
 }
 
 html,
@@ -52,7 +52,7 @@ header,
 article {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 body {
@@ -60,8 +60,8 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: $info;
+  text-decoration: none;
 }
 
 #map img {

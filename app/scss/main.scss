@@ -1,6 +1,6 @@
 .banner {
-  background: no-repeat top 0 left 0/contain url("./images/helimain.png");
   padding: 13.93% 33.25% 13.57% 20.46%;
+  background: no-repeat top 0 left 0/contain url("./images/helimain.png");
 }
 
 .price {
@@ -8,14 +8,14 @@
   height: 87px;
   color: $light;
   background-color: $warning;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
 }
 
 .ellipse {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 52px;
   height: 52px;
   border: 1px solid $light;
@@ -23,17 +23,17 @@
 }
 
 .button {
-  height: 68px;
   display: block;
-  width: 304px;
-  color: $light;
   box-sizing: border-box;
-  border: 3px solid $light;
-  border-radius: 3px;
+  width: 304px;
+  height: 68px;
+  padding: 24px 37px;
+  color: $light;
   font-weight: 900;
   font-size: 18px;
   line-height: 22px;
-  padding: 24px 37px;
+  border: 3px solid $light;
+  border-radius: 3px;
 }
 
 header,
@@ -51,49 +51,41 @@ header,
   position: relative;
 }
 
-.watch-1 {
-  position: absolute;
-  left: 0;
-  top:0;
-  width: 100%;
-  height: 100%;
-}
-
 .watch-1,
 .watch-2,
 .watch-3 img,
 .watch-4 img,
 .watch-5 img {
   position: absolute;
-  left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  left: 50%;
   z-index: -1;
+  transform: translate(-50%, -50%);
 }
 
 .watch-1 {
-  height: 32px;
   width: 32px;
+  height: 32px;
 }
 
 .watch-2 {
-  height: 29.96px;
   width: 29.96px;
+  height: 29.96px;
 }
 
 .watch-3 {
-  height: 3.06px;
   width: 1.02px;
+  height: 3.06px;
 }
 
 .watch-4 {
-  height: 15.7px;
   width: 15.7px;
+  height: 15.7px;
 }
 
 .watch-5 {
-  height: 27.91px;
   width: 27.91px;
+  height: 27.91px;
 }
 
 .position-button-play {
@@ -109,10 +101,9 @@ header,
   cursor: pointer;
 }
 
-
 .review-border {
   width: 569px;
-  padding: 25px 0 25px 0;
+  padding: 25px 0;
   border-top: 0.5px solid $border;
   border-bottom: 0.5px solid $border;
 }
@@ -122,21 +113,21 @@ header,
 }
 
 .reviews-border {
-  border-bottom: 0.5px solid $border;
   box-sizing: border-box;
+  border-bottom: 0.5px solid $border;
 }
 
 .container {
-  width: 40.1vw;
   box-sizing: border-box;
-  border: 1px solid $border;
+  width: 40.1vw;
   padding: 23px 30px 42px 27px;
+  border: 1px solid $border;
 }
 
 .line {
-  border-top: 0.5px solid $border;
   margin-right: -30px;
   margin-left: -30px;
+  border-top: 0.5px solid $border;
 }
 
 .container-time {
@@ -144,48 +135,48 @@ header,
 }
 
 .select {
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  height: 50px;
   width: 129px;
+  height: 50px;
+  color: $warning;
   background-color: $light;
   border: 2px solid $warning;
   border-radius: 3px;
-  color: $warning;
-  position: relative;
-  z-index: 1;
 }
 
 #map {
+  position: absolute;
   width: 99.5vw;
   height: 509px;
-  position: absolute;
   margin-top: -483px;
 }
 
-.ya_map {
-	font-weight: normal;
-	font-size: 12px;
-	color: $dark;
+.ya-map {
+  color: $dark;
+  font-weight: normal;
+  font-size: 12px;
 }
 
 .shooting-information {
-  width: 420px;
-  background-color: $light;
-  box-sizing: border-box;
-  border: 1px solid $border;
-  padding: 2.65vw 30px 3.02vw 30px;
   position: relative;
   top: 495px;
   left: 390px;
   z-index: 1;
+  box-sizing: border-box;
+  width: 420px;
+  padding: 2.65vw 30px 3.02vw;
+  background-color: $light;
+  border: 1px solid $border;
 }
 
 .radio-button {
-  height: 10px;
   width: 10px;
+  height: 10px;
   border: 0.5px solid $gray;
   border-radius: 50%;
 }

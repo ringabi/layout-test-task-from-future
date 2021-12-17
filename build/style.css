@@ -1,31 +1,31 @@
 @font-face {
   font-weight: 900;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   src: url("assets/fonts/Montserrat-Black.ttf");
 }
 @font-face {
   font-weight: 800;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   src: url("assets/fonts/Montserrat-ExtraBold.ttf");
 }
 @font-face {
   font-weight: 700;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   src: url("assets/fonts/Montserrat-Bold.ttf");
 }
 @font-face {
   font-weight: 600;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   src: url("assets/fonts/Montserrat-SemiBold.ttf");
 }
 @font-face {
   font-weight: 500;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   src: url("assets/fonts/Montserrat-Medium.ttf");
 }
 @font-face {
   font-weight: 400;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   src: url("assets/fonts/Montserrat-Regular.ttf");
 }
 html,
@@ -37,7 +37,7 @@ header,
 article {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 body {
@@ -45,8 +45,8 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: #5286ec;
+  text-decoration: none;
 }
 
 #map img {
@@ -313,8 +313,8 @@ a {
   margin-top: 66px;
 }
 
-.mt-722 {
-  margin-top: 722px;
+.mt-718 {
+  margin-top: 718px;
 }
 
 .mr-minus4 {
@@ -465,13 +465,13 @@ a {
 .header {
   display: flex;
   align-items: center;
-  height: 100px;
   box-sizing: border-box;
+  height: 100px;
 }
 
 .banner {
-  background: no-repeat top 0 left 0/contain url("./images/helimain.png");
   padding: 13.93% 33.25% 13.57% 20.46%;
+  background: no-repeat top 0 left 0/contain url("./images/helimain.png");
 }
 
 .price {
@@ -479,14 +479,14 @@ a {
   height: 87px;
   color: #fff;
   background-color: #fc9b09;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .ellipse {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 52px;
   height: 52px;
   border: 1px solid #fff;
@@ -494,17 +494,17 @@ a {
 }
 
 .button {
-  height: 68px;
   display: block;
-  width: 304px;
-  color: #fff;
   box-sizing: border-box;
-  border: 3px solid #fff;
-  border-radius: 3px;
+  width: 304px;
+  height: 68px;
+  padding: 24px 37px;
+  color: #fff;
   font-weight: 900;
   font-size: 18px;
   line-height: 22px;
-  padding: 24px 37px;
+  border: 3px solid #fff;
+  border-radius: 3px;
 }
 
 header,
@@ -522,49 +522,41 @@ header,
   position: relative;
 }
 
-.watch-1 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .watch-1,
 .watch-2,
 .watch-3 img,
 .watch-4 img,
 .watch-5 img {
   position: absolute;
-  left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  left: 50%;
   z-index: -1;
+  transform: translate(-50%, -50%);
 }
 
 .watch-1 {
-  height: 32px;
   width: 32px;
+  height: 32px;
 }
 
 .watch-2 {
-  height: 29.96px;
   width: 29.96px;
+  height: 29.96px;
 }
 
 .watch-3 {
-  height: 3.06px;
   width: 1.02px;
+  height: 3.06px;
 }
 
 .watch-4 {
-  height: 15.7px;
   width: 15.7px;
+  height: 15.7px;
 }
 
 .watch-5 {
-  height: 27.91px;
   width: 27.91px;
+  height: 27.91px;
 }
 
 .position-button-play {
@@ -582,7 +574,7 @@ header,
 
 .review-border {
   width: 569px;
-  padding: 25px 0 25px 0;
+  padding: 25px 0;
   border-top: 0.5px solid #c7c7c7;
   border-bottom: 0.5px solid #c7c7c7;
 }
@@ -592,21 +584,21 @@ header,
 }
 
 .reviews-border {
-  border-bottom: 0.5px solid #c7c7c7;
   box-sizing: border-box;
+  border-bottom: 0.5px solid #c7c7c7;
 }
 
 .container {
-  width: 40.1vw;
   box-sizing: border-box;
-  border: 1px solid #c7c7c7;
+  width: 40.1vw;
   padding: 23px 30px 42px 27px;
+  border: 1px solid #c7c7c7;
 }
 
 .line {
-  border-top: 0.5px solid #c7c7c7;
   margin-right: -30px;
   margin-left: -30px;
+  border-top: 0.5px solid #c7c7c7;
 }
 
 .container-time {
@@ -614,87 +606,87 @@ header,
 }
 
 .select {
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  height: 50px;
   width: 129px;
+  height: 50px;
+  color: #fc9b09;
   background-color: #fff;
   border: 2px solid #fc9b09;
   border-radius: 3px;
-  color: #fc9b09;
-  position: relative;
-  z-index: 1;
 }
 
 #map {
+  position: absolute;
   width: 99.5vw;
   height: 509px;
-  position: absolute;
   margin-top: -483px;
 }
 
-.ya_map {
+.ya-map {
+  color: #37373f;
   font-weight: normal;
   font-size: 12px;
-  color: #37373f;
 }
 
 .shooting-information {
-  width: 420px;
-  background-color: #fff;
-  box-sizing: border-box;
-  border: 1px solid #c7c7c7;
-  padding: 2.65vw 30px 3.02vw 30px;
   position: relative;
   top: 495px;
   left: 390px;
   z-index: 1;
+  box-sizing: border-box;
+  width: 420px;
+  padding: 2.65vw 30px 3.02vw;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
 }
 
 .radio-button {
-  height: 10px;
   width: 10px;
+  height: 10px;
   border: 0.5px solid #b3b3b3;
   border-radius: 50%;
 }
 
 .footer {
-  background-color: #faf9f8;
-  padding: 3px 0 31px 0;
   box-sizing: border-box;
+  padding: 3px 0 31px;
+  background-color: #faf9f8;
 }
 
-.popup__bg {
+.popup-bg {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
+  overflow-y: auto;
   background: rgba(0, 0, 0, 0.5);
   opacity: 0;
-  pointer-events: none;
   transition: 0.5s all;
-  overflow-y: auto;
+  pointer-events: none;
 }
 
-.popup__bg.active {
+.popup-bg.active {
   opacity: 1;
-  pointer-events: all;
   transition: 0.5s all;
+  pointer-events: all;
 }
 
 .popup {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  background: #fff;
   box-sizing: border-box;
   width: 615px;
   padding: 60px 97.5px;
+  background: #fff;
   border-radius: 6px;
+  transform: translate(-50%, -50%) scale(0);
   transition: 0.5s all;
 }
 
@@ -710,7 +702,7 @@ header,
   cursor: pointer;
 }
 
-.popup__title {
+.popup-title {
   font-weight: 600;
   font-size: 22px;
   line-height: 150%;
@@ -718,10 +710,10 @@ header,
 }
 
 .popup label {
-  width: 100%;
-  margin-bottom: 10px;
   display: flex;
   flex-direction: column-reverse;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .popup label:nth-of-type(7) {
@@ -729,16 +721,26 @@ header,
   width: 80%;
 }
 
-input[type=date]::-webkit-calendar-picker-indicator {
-  opacity: 0;
-  -webkit-appearance: none;
-  position: absolute;
-  right: 16.6%;
+input[type=date] {
+  width: 100%;
+  background: url("./images/calendar.png") no-repeat 99% 50%;
 }
 
-input[type=date] {
-  background: url(./images/calendar.png) no-repeat 99% 50%;
-  width: 100%;
+input[type=date]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  right: 16.6%;
+  opacity: 0;
+}
+
+.checkbox {
+  position: relative;
+  z-index: -1;
+  width: 16px;
+  height: 16px;
+  background: #fc9b09;
+  border: 1px solid #fc9b09;
+  border-radius: 2px;
+  box-shadow: 0 0 3px rgba(252, 155, 9, 0.6);
 }
 
 .custom-checkbox {
@@ -755,25 +757,14 @@ input[type=date] {
   opacity: 0;
 }
 
-.checkbox {
-  position: relative;
-  width: 16px;
-  height: 16px;
-  border: 1px solid #fc9b09;
-  background: #fc9b09;
-  box-shadow: 0px 0px 3px rgba(252, 155, 9, 0.6);
-  border-radius: 2px;
-  z-index: -1;
-}
-
 .checkmark {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  display: none;
   width: 80%;
   height: auto;
-  display: none;
+  transform: translate(-50%, -50%);
 }
 
 .popup label:nth-last-of-type(1) + input:checked ~ .d-flex .checkbox .checkmark {
@@ -784,19 +775,31 @@ input[type=date] {
   margin-bottom: 0;
 }
 
-.popup .label__text {
-  font-weight: 500;
+.popup .label-text {
   margin-top: 7px;
   margin-bottom: 10px;
+  font-weight: 500;
 }
 
 .popup input {
+  box-sizing: border-box;
   height: 44px;
-  outline: none;
+  padding-left: 20px;
   border: 1px solid #c7c7c7;
   border-radius: 3px;
-  box-sizing: border-box;
-  padding-left: 20px;
+  outline: none;
+}
+
+.popup input:invalid {
+  border: 1px dashed red;
+}
+
+.popup input:focus {
+  border-bottom: 1px solid #5286ec;
+}
+
+.popup input:focus + .label-text {
+  color: #5286ec;
 }
 
 .popup label:nth-of-type(6) input {
@@ -806,13 +809,13 @@ input[type=date] {
 }
 
 .popup .d-flex label:nth-of-type(1) input {
+  box-sizing: border-box;
   border-top: none;
   border-right: none;
   border-radius: 3px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  box-sizing: border-box;
 }
 
 .popup .d-flex label:nth-of-type(2) input {
@@ -822,61 +825,49 @@ input[type=date] {
   border-bottom-left-radius: 0;
 }
 
-.popup input:focus {
-  border-bottom: 1px solid #5286ec;
-}
-
-.popup input:focus + .label__text {
-  color: #5286ec;
-}
-
-.popup input:invalid {
-  border: 1px dashed red;
-}
-
 .popup textarea {
-  resize: none;
   width: 100%;
   height: 150px;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid #cfd0d3;
-  font-size: 18px;
   padding-top: 5px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px solid #cfd0d3;
+  outline: none;
+  resize: none;
 }
 
 .popup textarea:focus {
   border-bottom: 1px solid #5286ec;
 }
 
-.popup textarea:focus + .label__text {
+.popup textarea:focus + .label-text {
   color: #5286ec;
 }
 
 .popup button {
-  width: 390px;
-  height: 72px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 600;
+  width: 390px;
+  height: 72px;
   color: #fff;
-  border: 2px solid #fc9b09;
+  font-weight: 600;
   background: #fc9b09;
+  border: 2px solid #fc9b09;
   cursor: pointer;
   transition: 0.5s all;
 }
 
 .popup button:hover {
-  background: #fff;
   color: #5286ec;
+  background: #fff;
   transition: 0.5s all;
 }
 
 @media (max-width: 1620px) {
   #map img {
-    height: 51.98px;
     width: 51.98px;
+    height: 51.98px;
   }
 
   #map {
@@ -890,14 +881,14 @@ input[type=date] {
 
   .shooting-information {
     top: 459px;
-    padding: 2.65vw 30px 2.65vw 30px;
+    padding: 2.65vw 30px;
   }
 
   .mt-lg-100 {
     margin-top: 100px;
   }
 
-  .mt-722 {
+  .mt-718 {
     margin-top: 610px;
   }
 }
@@ -911,8 +902,8 @@ input[type=date] {
   }
 
   #map img {
-    height: 45px;
     width: 45px;
+    height: 45px;
   }
 
   #map {
@@ -925,7 +916,7 @@ input[type=date] {
 
   .shooting-information {
     top: 388px;
-    padding: 1.65vw 30px 1.65vw 30px;
+    padding: 1.65vw 30px;
   }
 
   #map .fs-18 {
@@ -936,7 +927,7 @@ input[type=date] {
     font-size: 12px;
   }
 
-  .mt-722 {
+  .mt-718 {
     margin-top: 510px;
   }
 }
@@ -985,8 +976,8 @@ input[type=date] {
 
   #photosession div:nth-child(1) > img:nth-of-type(2),
 #video-control iframe {
-    height: 33.71vw;
     width: calc(100vw / 2);
+    height: 33.71vw;
   }
 
   .position-button-play {
@@ -1036,8 +1027,8 @@ input[type=date] {
   }
 
   .price {
-    height: 78px;
     width: 200px;
+    height: 78px;
   }
 
   .position-button-play {
@@ -1078,7 +1069,7 @@ input[type=date] {
   }
 
   #reviews .mt-45 {
-    margin-top: 2.34375vw;
+    margin-top: 2.3438vw;
   }
 
   .pt-97 {
@@ -1091,8 +1082,8 @@ input[type=date] {
 }
 @media (max-width: 645px) {
   .banner {
-    background: no-repeat top 0 left -855px url("./images/helimain.png");
     padding: 37.9vw 23.25% 49vw 15px;
+    background: no-repeat top 0 left -855px url("./images/helimain.png");
   }
 
   #banner .fs-40 {
@@ -1105,14 +1096,14 @@ input[type=date] {
 
   .button {
     width: 275px;
-    font-size: 16px;
     padding: 24px 33px;
+    font-size: 16px;
   }
 
   #photosession div:nth-child(1) > img:nth-of-type(2),
 #video-control iframe {
-    height: 262px;
     width: 385.6px;
+    height: 262px;
   }
 
   .position-button-play {
@@ -1122,12 +1113,12 @@ input[type=date] {
 
   .review-border {
     width: calc(100vw - 40px);
-    padding: 13px 0 9px 0;
+    padding: 13px 0 9px;
   }
 
   .shooting-information {
-    width: 247px;
     left: 50px;
+    width: 247px;
     padding: 1.65vw 15px;
   }
 
@@ -1136,8 +1127,8 @@ input[type=date] {
   }
 
   .footer {
+    padding: 18px 0 20px;
     background-color: #fff;
-    padding: 18px 0 20px 0;
     border-top: 0.5px solid #b3b3b3;
   }
 
@@ -1236,21 +1227,21 @@ input[type=date] {
 
   #package-photos {
     width: calc(100vw - 20px);
-    margin-left: 20px;
     margin-right: auto;
+    margin-left: 20px;
   }
 
   .header {
-    height: 60px;
-    justify-content: space-between;
     align-items: flex-end;
+    justify-content: space-between;
+    height: 60px;
     padding-bottom: 22.335px;
   }
 
   header img:nth-of-type(1),
 #social > img:nth-of-type(1) {
-    height: 15.33px;
     width: 84px;
+    height: 15.33px;
   }
 
   #package-photos .mt-37 img {
@@ -1269,10 +1260,38 @@ input[type=date] {
     font-size: 14px;
   }
 
+  #map img:nth-of-type(3) {
+    width: 10px;
+    height: 19px;
+  }
+
+  #reviews > div:nth-of-type(1) > img,
+#reviews > div:nth-of-type(4) > img {
+    width: 84px;
+    height: 84px;
+  }
+
   #photosession div:nth-child(1) > img:nth-of-type(2),
 #video-control iframe {
-    height: 61.56vw;
     width: calc(100vw - 40px);
+    height: 61.56vw;
+  }
+
+  #map .shooting-information div:nth-of-type(2) img,
+#map .shooting-information div:nth-of-type(3) img,
+#map .shooting-information div:nth-of-type(4) img {
+    width: 66px;
+    height: 66px;
+  }
+
+  #map .shooting-information div:nth-of-type(6) img {
+    width: 67px;
+    height: 67px;
+  }
+
+  #map .shooting-information div:first-child img:nth-of-type(1) {
+    width: 10px;
+    height: 19px;
   }
 
   .position-button-play {
@@ -1280,21 +1299,21 @@ input[type=date] {
     left: 82vw;
   }
 
-  #photosession .review-border .fw-600,
-#available-shooting .fw-600,
+  #available-shooting .fw-600,
+#photosession .review-border .fw-600,
 #package-photos .fw-500,
 #available-shooting .fw-500,
 #reviews .fw-500 {
     font-weight: normal;
   }
 
-  .section {
+  .photo-container {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
   }
 
-  .section_item {
+  .photo-container-item {
     scroll-snap-align: start;
   }
 
@@ -1304,7 +1323,7 @@ input[type=date] {
 
   .container {
     width: calc(100vw - 40px);
-    padding: 23px 10px 21px 10px;
+    padding: 23px 10px 21px;
   }
 
   .container > div:nth-of-type(3).align-items-center,
@@ -1321,6 +1340,10 @@ input[type=date] {
     margin-left: -10px;
   }
 
+  #reviews .fs-18 {
+    font-size: 16px;
+  }
+
   #map .shooting-information div:nth-of-type(2) .fs-18:nth-of-type(2),
 #map .shooting-information div:nth-of-type(3) .fs-18:nth-of-type(2),
 #map .shooting-information div:nth-of-type(4) .fs-18:nth-of-type(2),
@@ -1334,32 +1357,18 @@ input[type=date] {
   }
 
   .shooting-information {
-    width: 365px;
     top: 790px;
     left: 30px;
+    width: 365px;
     padding: 14px 26px;
   }
 
-  #map .shooting-information div:nth-of-type(2) img,
-#map .shooting-information div:nth-of-type(3) img,
-#map .shooting-information div:nth-of-type(4) img {
-    height: 66px;
-    width: 66px;
-  }
-
-  #map .shooting-information div:nth-of-type(6) img {
-    height: 67px;
-    width: 67px;
+  #reviews p {
+    font-size: 14px;
   }
 
   #map .shooting-information div:nth-of-type(6) .mr-18 {
     margin-right: 11px;
-  }
-
-  #map .shooting-information div:first-child img:nth-of-type(1),
-#map img:nth-of-type(3) {
-    height: 19px;
-    width: 10px;
   }
 
   .slider {
@@ -1379,20 +1388,6 @@ input[type=date] {
       opacity: 1;
     }
   }
-  #reviews .fs-18 {
-    font-size: 16px;
-  }
-
-  #reviews > div:nth-of-type(1) > img,
-#reviews > div:nth-of-type(4) > img {
-    height: 84px;
-    width: 84px;
-  }
-
-  #reviews p {
-    font-size: 14px;
-  }
-
   .review {
     width: 385px;
   }
@@ -1447,7 +1442,7 @@ input[type=date] {
     margin-top: 41px;
   }
 
-  .mt-722 {
+  .mt-718 {
     margin-top: 860px;
   }
 
@@ -1622,13 +1617,13 @@ input[type=date] {
 }
 @media (max-width: 376px) {
   .banner {
-    background: no-repeat top 0 left -855px url("./images/helimain.png");
     padding: 37.9vw 23.25% 49vw 15px;
+    background: no-repeat top 0 left -855px url("./images/helimain.png");
   }
 
   .shooting-information {
-    width: 325px;
     left: 25px;
+    width: 325px;
   }
 
   #available-shooting .container div:nth-of-type(2) ~ .fs-18:nth-of-type(4) {
@@ -1640,10 +1635,7 @@ input[type=date] {
   }
 
   .popup {
-    padding-top: 51px;
-    padding-right: 20px;
-    padding-bottom: 36px;
-    padding-left: 20px;
+    padding-top: 51px 20px 36px 20px;
   }
 
   input[type=date]::-webkit-calendar-picker-indicator {
@@ -1668,18 +1660,17 @@ input[type=date] {
 
   #package-photos {
     width: calc(100vw - 15px);
-    margin-left: 15px;
     margin-right: auto;
+    margin-left: 15px;
   }
 
   .banner {
     background: no-repeat url("./images/helimain-mobile.png");
   }
 
-  #photosession div:nth-child(1) > img:nth-of-type(2),
-#video-control iframe {
-    height: 61.56vw;
-    width: calc(100vw - 30px);
+  .position-button-play {
+    top: 53vw;
+    left: 80vw;
   }
 
   #package-photos .mt-37 img {
@@ -1687,14 +1678,20 @@ input[type=date] {
     height: 185px;
   }
 
+  #photosession div:nth-child(1) > img:nth-of-type(2),
+#video-control iframe {
+    width: calc(100vw - 30px);
+    height: 61.56vw;
+  }
+
   .review-border {
     width: calc(100vw - 30px);
-    padding: 13px 0 9px 0;
+    padding: 13px 0 9px;
   }
 
   .container {
     width: calc(100vw - 30px);
-    padding: 23px 20px 21px 20px;
+    padding: 23px 20px 21px;
   }
 
   .line {
@@ -1711,10 +1708,10 @@ input[type=date] {
   }
 
   .shooting-information {
-    width: 274px;
     top: 857px;
     left: 23px;
-    padding: 16.25vw 15px 14px 26px;
+    width: 274px;
+    padding: 15.25vw 15px 14px 26px;
   }
 
   .review {
@@ -1748,8 +1745,16 @@ input[type=date] {
     flex-direction: column;
   }
 
-  .mt-722 {
+  .mt-718 {
     margin-top: 940px;
+  }
+
+  .mt-58 {
+    margin-top: 61px;
+  }
+
+  .mt-sm-minus11 {
+    margin-top: -11px;
   }
 
   .mt-sm-41 {
@@ -1762,6 +1767,10 @@ input[type=date] {
 
   .pt-97 {
     padding-top: 86px;
+  }
+
+  .pb-41 {
+    padding-bottom: 15.5px;
   }
 
   .pb-sm-41 {

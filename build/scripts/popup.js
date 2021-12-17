@@ -1,4 +1,4 @@
-const popupBg = document.querySelector('.popup__bg');
+const popupBg = document.querySelector('.popup-bg');
 const popup = document.querySelector('.popup');
 const openPopupButton = document.querySelector('.banner .button');
 const closePopupButton = document.querySelector('.close-popup');

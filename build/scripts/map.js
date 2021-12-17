@@ -13,7 +13,7 @@ ymaps.ready(init);
 		); 
 	
 		myPlacemark = new ymaps.Placemark([55.75570374299158,37.60277800261957], { // Координаты метки объекта
-			balloonContent: "<div class='ya_map'>Встречаемся тут!</div>" // Подсказка метки
+			balloonContent: "<div class='ya-map'>Встречаемся тут!</div>" // Подсказка метки
 		}, {
 			preset: "twirl#redDotIcon" // Тип метки
 		});

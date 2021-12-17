@@ -1,7 +1,7 @@
 @media (max-width: 1620px) {
   #map img {
-    height: 51.98px;
     width: 51.98px;
+    height: 51.98px;
   }
 
   #map {
@@ -15,14 +15,14 @@
 
   .shooting-information {
     top: 459px;
-    padding: 2.65vw 30px 2.65vw 30px;
+    padding: 2.65vw 30px;
   }
 
   .mt-lg-100 {
     margin-top: 100px;
   }
 
-  .mt-722 {
+  .mt-718 {
     margin-top: 610px;
   }
 }
@@ -35,10 +35,10 @@
   .container {
     width: 60vw;
   }
-  
+
   #map img {
-    height: 45px;
     width: 45px;
+    height: 45px;
   }
 
   #map {
@@ -51,7 +51,7 @@
 
   .shooting-information {
     top: 388px;
-    padding: 1.65vw 30px 1.65vw 30px;
+    padding: 1.65vw 30px;
   }
 
   #map .fs-18 {
@@ -62,7 +62,7 @@
     font-size: 12px;
   }
 
-  .mt-722 {
+  .mt-718 {
     margin-top: 510px;
   }
 }
@@ -77,7 +77,7 @@
   #social {
     width: calc(100vw - 40px);
     margin: 0 auto;
-}
+  }
 
   .w-1137 {
     width: calc(100vw - 40px);
@@ -113,8 +113,8 @@
 
   #photosession div:nth-child(1) > img:nth-of-type(2),
   #video-control iframe {
-    height: 33.71vw;
     width: calc(100vw / 2);
+    height: 33.71vw;
   }
 
   .position-button-play {
@@ -165,8 +165,8 @@
   }
 
   .price {
-    height: 78px;
     width: 200px;
+    height: 78px;
   }
 
   .position-button-play {
@@ -207,7 +207,7 @@
   }
 
   #reviews .mt-45 {
-    margin-top: 2.34375vw;
+    margin-top: 2.3438vw;
   }
 
   .pt-97 {
@@ -221,8 +221,8 @@
 
 @media (max-width: 645px) {
   .banner {
+    padding: 37.9vw 23.25% 49vw 15px;
     background: no-repeat top 0 left -855px url("./images/helimain.png");
-    padding: 37.9vw 23.25% 49.0vw 15px;
   }
 
   #banner .fs-40 {
@@ -235,29 +235,29 @@
 
   .button {
     width: 275px;
-    font-size: 16px;
     padding: 24px 33px;
+    font-size: 16px;
   }
-  
+
   #photosession div:nth-child(1) > img:nth-of-type(2),
   #video-control iframe {
-    height: 262px;
     width: 385.6px;
+    height: 262px;
   }
 
   .position-button-play {
     top: 40vw;
     left: 72vw;
   }
-  
+
   .review-border {
     width: calc(100vw - 40px);
-    padding: 13px 0 9px 0;
+    padding: 13px 0 9px;
   }
 
   .shooting-information {
-    width: 247px;
     left: 50px;
+    width: 247px;
     padding: 1.65vw 15px;
   }
 
@@ -266,8 +266,8 @@
   }
 
   .footer {
+    padding: 18px 0 20px;
     background-color: $light;
-    padding: 18px 0 20px 0;
     border-top: 0.5px solid $gray;
   }
 
@@ -305,9 +305,9 @@
     padding: 74px 10%;
   }
 
-  input[type=date]::-webkit-calendar-picker-indicator {
-      right: 11.6%;
-    }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    right: 11.6%;
+  }
 
   .popup button {
     width: 64%;
@@ -366,22 +366,22 @@
   }
 
   #package-photos {
-  width: calc(100vw - 20px);
-  margin-left: 20px;
-  margin-right: auto;
+    width: calc(100vw - 20px);
+    margin-right: auto;
+    margin-left: 20px;
   }
 
   .header {
-    height: 60px;
-    justify-content: space-between;
     align-items: flex-end;
+    justify-content: space-between;
+    height: 60px;
     padding-bottom: 22.335px;
   }
 
   header img:nth-of-type(1),
   #social > img:nth-of-type(1) {
-    height: 15.33px;
     width: 84px;
+    height: 15.33px;
   }
 
   #package-photos .mt-37 img {
@@ -400,10 +400,38 @@
     font-size: 14px;
   }
 
+  #map img:nth-of-type(3) {
+    width: 10px;
+    height: 19px;
+  }
+
+  #reviews > div:nth-of-type(1) > img,
+  #reviews > div:nth-of-type(4) > img {
+    width: 84px;
+    height: 84px;
+  }
+
   #photosession div:nth-child(1) > img:nth-of-type(2),
   #video-control iframe {
-    height: 61.56vw;
     width: calc(100vw - 40px);
+    height: 61.56vw;
+  }
+
+  #map .shooting-information div:nth-of-type(2) img,
+  #map .shooting-information div:nth-of-type(3) img,
+  #map .shooting-information div:nth-of-type(4) img {
+    width: 66px;
+    height: 66px;
+  }
+
+  #map .shooting-information div:nth-of-type(6) img {
+    width: 67px;
+    height: 67px;
+  }
+
+  #map .shooting-information div:first-child img:nth-of-type(1) {
+    width: 10px;
+    height: 19px;
   }
 
   .position-button-play {
@@ -411,21 +439,21 @@
     left: 82vw;
   }
 
-  #photosession .review-border .fw-600,
   #available-shooting .fw-600,
+  #photosession .review-border .fw-600,
   #package-photos .fw-500,
   #available-shooting .fw-500,
   #reviews .fw-500 {
     font-weight: normal;
   }
 
-  .section {
+  .photo-container {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
   }
-  
-  .section_item {
+
+  .photo-container-item {
     scroll-snap-align: start;
   }
 
@@ -435,7 +463,7 @@
 
   .container {
     width: calc(100vw - 40px);
-    padding: 23px 10px 21px 10px;
+    padding: 23px 10px 21px;
   }
 
   .container > div:nth-of-type(3).align-items-center,
@@ -452,6 +480,10 @@
     margin-left: -10px;
   }
 
+  #reviews .fs-18 {
+    font-size: 16px;
+  }
+
   #map .shooting-information div:nth-of-type(2) .fs-18:nth-of-type(2),
   #map .shooting-information div:nth-of-type(3) .fs-18:nth-of-type(2),
   #map .shooting-information div:nth-of-type(4) .fs-18:nth-of-type(2),
@@ -465,64 +497,37 @@
   }
 
   .shooting-information {
-    width: 365px;
     top: 790px;
     left: 30px;
+    width: 365px;
     padding: 14px 26px;
   }
 
-  #map .shooting-information div:nth-of-type(2) img,
-  #map .shooting-information div:nth-of-type(3) img,
-  #map .shooting-information div:nth-of-type(4) img {
-    height: 66px;
-    width: 66px;
-  }
-
-  #map .shooting-information div:nth-of-type(6) img {
-    height: 67px;
-    width: 67px;
+  #reviews p {
+    font-size: 14px;
   }
 
   #map .shooting-information div:nth-of-type(6) .mr-18 {
     margin-right: 11px;
   }
 
-  #map .shooting-information div:first-child img:nth-of-type(1),
-  #map img:nth-of-type(3) {
-    height: 19px;
-    width: 10px;
-  }
-
   .slider {
     position: relative;
   }
-  
+
   .slider .item {
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  
+
   @keyframes fade {
     from {
       opacity: 0.4;
     }
+
     to {
       opacity: 1;
     }
-  }
-
-  #reviews .fs-18 {
-    font-size: 16px;
-  }
-
-  #reviews > div:nth-of-type(1) > img,
-  #reviews > div:nth-of-type(4) > img {
-    height: 84px;
-    width: 84px;
-  }
-
-  #reviews p {
-    font-size: 14px;
   }
 
   .review {
@@ -540,7 +545,7 @@
   .d-sm-flex {
     display: flex;
   }
-  
+
   .d-sm-block {
     display: block;
   }
@@ -562,7 +567,7 @@
     width: 385px;
   }
 
-  input[type=date]::-webkit-calendar-picker-indicator {
+  input[type="date"]::-webkit-calendar-picker-indicator {
     right: 12.6%;
   }
 
@@ -579,7 +584,7 @@
     margin-top: 41px;
   }
 
-  .mt-722 {
+  .mt-718 {
     margin-top: 860px;
   }
 
@@ -755,13 +760,13 @@
 
 @media (max-width: 376px) {
   .banner {
+    padding: 37.9vw 23.25% 49vw 15px;
     background: no-repeat top 0 left -855px url("./images/helimain.png");
-    padding: 37.9vw 23.25% 49.0vw 15px;
   }
 
   .shooting-information {
-    width: 325px;
     left: 25px;
+    width: 325px;
   }
 
   #available-shooting .container div:nth-of-type(2) ~ .fs-18:nth-of-type(4) {
@@ -773,13 +778,10 @@
   }
 
   .popup {
-    padding-top: 51px;
-    padding-right: 20px;
-    padding-bottom: 36px;
-    padding-left: 20px;
+    padding-top: 51px 20px 36px 20px;
   }
 
-  input[type=date]::-webkit-calendar-picker-indicator {
+  input[type="date"]::-webkit-calendar-picker-indicator {
     right: 7.6%;
   }
 
@@ -801,19 +803,18 @@
   }
 
   #package-photos {
-  width: calc(100vw - 15px);
-  margin-left: 15px;
-  margin-right: auto;
+    width: calc(100vw - 15px);
+    margin-right: auto;
+    margin-left: 15px;
   }
 
   .banner {
     background: no-repeat url("./images/helimain-mobile.png");
   }
 
-  #photosession div:nth-child(1) > img:nth-of-type(2),
-  #video-control iframe {
-    height: 61.56vw;
-    width: calc(100vw - 30px);
+  .position-button-play {
+    top: 53vw;
+    left: 80vw;
   }
 
   #package-photos .mt-37 img {
@@ -821,14 +822,20 @@
     height: 185px;
   }
 
+  #photosession div:nth-child(1) > img:nth-of-type(2),
+  #video-control iframe {
+    width: calc(100vw - 30px);
+    height: 61.56vw;
+  }
+
   .review-border {
     width: calc(100vw - 30px);
-    padding: 13px 0 9px 0;
+    padding: 13px 0 9px;
   }
 
   .container {
     width: calc(100vw - 30px);
-    padding: 23px 20px 21px 20px;
+    padding: 23px 20px 21px;
   }
 
   .line {
@@ -845,10 +852,10 @@
   }
 
   .shooting-information {
-    width: 274px;
     top: 857px;
     left: 23px;
-    padding: 16.25vw 15px 14px 26px;
+    width: 274px;
+    padding: 15.25vw 15px 14px 26px;
   }
 
   .review {
@@ -874,7 +881,7 @@
     padding-left: 10px;
   }
 
-  input[type=date]::-webkit-calendar-picker-indicator {
+  input[type="date"]::-webkit-calendar-picker-indicator {
     right: 5%;
   }
 
@@ -882,8 +889,16 @@
     flex-direction: column;
   }
 
-  .mt-722 {
+  .mt-718 {
     margin-top: 940px;
+  }
+
+  .mt-58 {
+    margin-top: 61px;
+  }
+
+  .mt-sm-minus11 {
+    margin-top: -11px;
   }
 
   .mt-sm-41 {
@@ -896,6 +911,10 @@
 
   .pt-97 {
     padding-top: 86px;
+  }
+
+  .pb-41 {
+    padding-bottom: 15.5px;
   }
 
   .pb-sm-41 {

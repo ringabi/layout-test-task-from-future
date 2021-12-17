@@ -1,28 +1,28 @@
-.popup__bg 
+.popup-bg 
   form.popup.mt-21.mt-lg-100.mt-md-160(action="#")
     img.close-popup(src="./images/close.png", alt="to close") 
-    h2.popup__title Бронирование
-    .label__text Дата
+    h2.popup-title Бронирование
+    .label-text Дата
       span.text-red *
     label
       input(type="date", name="calendar", required)
-    .label__text Email
+    .label-text Email
       span.text-red *
     label
       input(type="email", name="name", placeholder="Электронная почта", required)
-    .label__text Имя
+    .label-text Имя
       span.text-red *
     label
       input(type="text", name="name", required)
-    .label__text Фамилия
+    .label-text Фамилия
       span.text-red *
     label
       input(type="text", name="name", required)
-    .label__text Телефон
+    .label-text Телефон
       span.text-red *
     label
       input(type="tel", name="phone", pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}", minlength="16", maxlength="16", required)
-    .label__text Данные карты
+    .label-text Данные карты
       span.text-red *
     label
       input(type="number", name="name", min="1000000000000000" max="9999999999999999", placeholder="Номер карты", required)
