@@ -3,7 +3,7 @@
 
 ### Результат моей работы можно посмотреть [здесь...](http://rinat-future-layout-test.surge.sh)
 
----Описание тестового задания  
+### Описание тестового задания  
 
 Ссылка на макеты в Figma [здесь.](https://www.figma.com/file/fMyOAiBkWJ4LtAacwdmIyB/testTask?node-id=0%3A1) 
 
